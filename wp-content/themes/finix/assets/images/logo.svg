@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="493.5" height="164.875" viewBox="0 0 493.5 164.875">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        fill: #212121;
+        font-family: Ebrima;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fc692b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <text id="Finix." class="cls-1" transform="translate(179.697 126.836) scale(2.114)">Finix.</text>
+  <path class="cls-2" d="M79.01,49.465l-71.5,39.8v85.289l17.161,8.529V100.639L99.031,57.994Z" transform="translate(-7.5 -49.469)"/>
+  <path class="cls-2" d="M113.331,66.523L38.968,109.168v82.446l20.021,11.371v-48.33l94.384-54.016V89.267l-8.58-2.843-85.8,48.33V117.7l71.5-39.8Z" transform="translate(-7.5 -49.469)"/>
+  <path class="cls-2" d="M153.373,117.7L73.29,163.184v51.173h5.72l74.363-39.8v-19.9L90.451,191.614V174.556l62.922-34.116V117.7Z" transform="translate(-7.5 -49.469)"/>
+</svg>

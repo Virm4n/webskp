@@ -1,0 +1,38 @@
+<wpml-config>
+  <admin-texts>
+    <key name="wp24_domaincheck">
+      <key name="fieldLabel" />
+      <key name="fieldPlaceholder" />
+      <key name="checkAllLabel" />
+      <key name="textButton" />
+      <key name="textWhois" />
+      <key name="textAvailable" />
+      <key name="textRegistered" />
+      <key name="textError" />
+      <key name="textInvalid" />
+      <key name="textLimit" />
+      <key name="textWhoisserver" />
+      <key name="textUnsupported" />
+      <key name="textTldMissing" />
+      <key name="textEmptyField" />
+      <key name="textInvalidField" />
+      <key name="textPurchase" />
+      <key name="textTransfer" />
+      <key name="unsupported">
+        <key name="text" />
+        <key name="verifyText" />
+      </key>
+      <key name="woocommerce">
+        <key name="addToCartText" />
+        <key name="addedToCartText" />
+        <key name="domainLabel" />
+        <key name="textPurchase" />
+        <key name="textTransfer" />
+        <key name="suffixTransfer" />
+      </key>
+      <key name="recaptcha">
+        <key name="text" />
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>

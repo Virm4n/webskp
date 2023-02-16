@@ -1,0 +1,873 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Finix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-07 15:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.1\n"
+"X-Domain: finix"
+
+#: inc/helper/woocommerce.php:40 template-parts/header/header-cart.php:23
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Number of comments.
+#: inc/helper/helper_function.php:131 inc/helper/helper_function.php:146
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: date, 2: time
+#: inc/helper/comment.php:66
+msgid "(Edit)"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:65
+msgid ", "
+msgstr ""
+
+#: inc/helper/helper_function.php:159
+msgid "0 Comments"
+msgstr ""
+
+#: woocommerce/cart/cart.php:23 woocommerce/checkout/form-checkout.php:33
+#: woocommerce/checkout/thankyou.php:22
+msgid "1"
+msgstr ""
+
+#: inc/helper/helper_function.php:161
+msgid "1 Comment"
+msgstr ""
+
+#: woocommerce/cart/cart.php:24 woocommerce/checkout/form-checkout.php:34
+#: woocommerce/checkout/thankyou.php:23
+msgid "2"
+msgstr ""
+
+#: woocommerce/cart/cart.php:25 woocommerce/checkout/form-checkout.php:35
+#: woocommerce/checkout/thankyou.php:24
+msgid "3"
+msgstr ""
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Add"
+msgstr ""
+
+#: functions.php:241
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: functions.php:254
+msgid "Add widgets here to appear in your sidebar on shop pages."
+msgstr ""
+
+#: inc/tgm/required-plugins.php:68
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Apply coupon"
+msgstr ""
+
+#: template-parts/post/post-author-meta.php:54
+msgid "author avatar"
+msgstr ""
+
+#: woocommerce/cart/cart.php:98
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr ""
+
+#: inc/page-header/page-header-title.php:39
+msgid "Blog"
+msgstr ""
+
+#: functions.php:239 sidebar.php:18
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/page-header/breadcrumbs.php:24
+msgid "Blogs"
+msgstr ""
+
+#. %s: post author
+#: inc/template-tags.php:21
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Categories"
+msgstr ""
+
+#: inc/page-header/page-header-one.php:21
+msgid "center"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Color Scheme"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:46
+msgid "Coming Soon"
+msgstr ""
+
+#: comments.php:31 comments.php:111
+msgid "Comment"
+msgstr ""
+
+#: inc/template-tags.php:230
+msgid "Comment navigation"
+msgstr ""
+
+#. If comment number in your language requires declension,
+#. translate this to 'on'. Do not translate into your own language.
+#: inc/helper/helper_function.php:138
+msgctxt "Comment number declension: on or off"
+msgid "off"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/tgm/required-plugins.php:73
+msgid "Contact Form 7"
+msgstr ""
+
+#: template-parts/header/header-three.php:47
+#: template-parts/header/header-two.php:39
+msgid "Contact Number"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon:"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Custom"
+msgstr ""
+
+#: inc/importer/import.php:147
+msgid "Cyber Security"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Dark"
+msgstr ""
+
+#: inc/importer/import.php:72
+msgid "Data Science"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Date:"
+msgstr ""
+
+#: inc/importer/import.php:177
+msgid "Default Dark"
+msgstr ""
+
+#: inc/custom-header.php:56
+msgid "Default Header Image"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Edit"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:43
+msgid "Elementor"
+msgstr ""
+
+#: comments.php:104
+msgid "Email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:64
+msgid "Email:"
+msgstr ""
+
+#: inc/page-header/breadcrumbs.php:52 inc/page-header/page-header-title.php:35
+msgid "Error 404"
+msgstr ""
+
+#: inc/helper/helper_function.php:54
+msgid "Facebook Account"
+msgstr ""
+
+#. Name of the theme
+msgid "Finix"
+msgstr ""
+
+#: template-parts/header/header-logo.php:37
+#: template-parts/header/header-logo.php:46
+#: template-parts/header/header-logo.php:52
+#: template-parts/header/header-logo.php:55
+#: template-parts/header/header-logo.php:75
+#: template-parts/header/header-logo.php:78
+#: template-parts/maintenance/logo.php:22
+msgid "finix"
+msgstr ""
+
+#. Description of the theme
+msgid "Finix - Technology &amp; IT Solutions WordPress Theme"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:31
+msgid "Finix Core"
+msgstr ""
+
+#: inc/back-compat.php:39 inc/back-compat.php:52 inc/back-compat.php:70
+#, php-format
+msgid ""
+"Finix requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/helper/widget.php:21
+msgid "Footer 1"
+msgstr ""
+
+#: inc/helper/widget.php:32
+msgid "Footer 2"
+msgstr ""
+
+#: inc/helper/widget.php:43
+msgid "Footer 3"
+msgstr ""
+
+#: inc/helper/widget.php:54
+msgid "Footer 4"
+msgstr ""
+
+#: inc/helper/widget.php:65
+msgid "Footer 5"
+msgstr ""
+
+#: functions.php:66
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/helper/widget.php:75
+msgid "Footer Top Area"
+msgstr ""
+
+#: inc/template-tags.php:150
+#, php-format
+msgid "Front Page Section %1$s Placeholder"
+msgstr ""
+
+#. %d is the front page section number
+#: inc/customizer.php:142
+#, php-format
+msgid "Front Page Section %d Content"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:47
+#: template-parts/maintenance/maintenance.php:51
+msgid "Get Notified when our website is ready."
+msgstr ""
+
+#: inc/helper/widget.php:95
+msgid "Header Sidemenu"
+msgstr ""
+
+#: inc/index.php:16
+msgid "Home"
+msgstr ""
+
+#: 404.php:33
+msgid "Homepage"
+msgstr ""
+
+#. URI of the theme
+msgid "http://finix.powersquall.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/power-squall/portfolio"
+msgstr ""
+
+#: template-parts/footer/site-info.php:41
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/helper/helper_function.php:74
+msgid "Instagram Account"
+msgstr ""
+
+#: template-parts/post/content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/importer/import.php:87
+msgid "IT Solution"
+msgstr ""
+
+#: inc/page-header/page-header-one.php:19
+msgid "left"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Light"
+msgstr ""
+
+#: inc/helper/helper_function.php:84
+msgid "LinkedIn Account"
+msgstr ""
+
+#: template-parts/header/preloader.php:154
+msgid "loader"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:78
+msgid "Mailchimp"
+msgstr ""
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr ""
+
+#: inc/importer/import.php:30
+msgid "Mobile App"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "My account"
+msgstr ""
+
+#: comments.php:101
+msgid "Name"
+msgstr ""
+
+#. %s: Previous Link
+#: inc/template-tags.php:243
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:59 single-portfolio.php:33
+msgid "Next"
+msgstr ""
+
+#: single-portfolio.php:34 template-parts/post/post-author-meta.php:114
+msgid "Next post:"
+msgstr ""
+
+#: inc/helper/pagination.php:39
+msgid "Next »"
+msgstr ""
+
+#: inc/importer/import.php:162
+msgid "NFT"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:92
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/order/order-details.php:93
+msgid "Note:"
+msgstr ""
+
+#: inc/page-header/page-header-title.php:29
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:16
+msgid "Ohhh! Page Not Found"
+msgstr ""
+
+#: inc/template-tags.php:233
+msgid "Older Comments"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:48
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/customizer.php:111 inc/customizer.php:170
+msgid "One Column"
+msgstr ""
+
+#: woocommerce/order/order-details.php:45
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:25 woocommerce/checkout/form-checkout.php:35
+#: woocommerce/checkout/thankyou.php:24
+msgid "Order Received"
+msgstr ""
+
+#: template-parts/header/header-two.php:52
+msgid "Our Emails"
+msgstr ""
+
+#: template-parts/header/header-two.php:65
+msgid "Our Location"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Page Layout"
+msgstr ""
+
+#: template-parts/page/content-page.php:23
+#: template-parts/post/content-audio.php:82
+#: template-parts/post/content-classic.php:54
+#: template-parts/post/content-excerpt.php:61
+#: template-parts/post/content-gallery.php:56
+#: template-parts/post/content-image.php:56
+#: template-parts/post/content-quote.php:54
+#: template-parts/post/content-video.php:94 template-parts/post/content.php:55
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr ""
+
+#: inc/custom-header.php:128
+msgid "Pause background video"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/cart/cart.php:24 woocommerce/checkout/form-checkout.php:34
+#: woocommerce/checkout/thankyou.php:23
+msgid "Payment &amp; Delivery Options"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:76
+msgid "Payment method:"
+msgstr ""
+
+#: inc/helper/comment.php:30
+msgid "Pingback:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/custom-header.php:127
+msgid "Play background video"
+msgstr ""
+
+#: inc/icon-functions.php:30
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/icon-functions.php:25
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: 404.php:33
+msgid "Please return to"
+msgstr ""
+
+#. Author of the theme
+msgid "Power-Squall"
+msgstr ""
+
+#: comments.php:58 single-portfolio.php:37
+msgid "Previous"
+msgstr ""
+
+#: single-portfolio.php:38 template-parts/post/post-author-meta.php:117
+msgid "Previous post:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:103
+msgid "Price"
+msgstr ""
+
+#: functions.php:65
+msgid "Primary Menu"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:83
+#: woocommerce/order/order-details.php:51
+msgid "Product"
+msgstr ""
+
+#: template-parts/footer/site-info.php:42
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:109
+msgid "Quantity"
+msgstr ""
+
+#: template-parts/post/content-audio.php:96
+#: template-parts/post/content-classic.php:68
+#: template-parts/post/content-excerpt.php:76
+#: template-parts/post/content-gallery.php:70
+#: template-parts/post/content-image.php:70
+#: template-parts/post/content-quote.php:68
+#: template-parts/post/content-video.php:108 template-parts/post/content.php:70
+#: template-parts/post/recent-post.php:68
+msgid "Read More"
+msgstr ""
+
+#: template-parts/post/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/recent-portfolio.php:13
+msgid "Recent Portfolio"
+msgstr ""
+
+#: template-parts/post/recent-post.php:17
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:53
+msgid "Redux Framework"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr ""
+
+#: woocommerce/single-product/related.php:32
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/cart/cart.php:62 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:37
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/page-header/page-header-one.php:20
+msgid "right"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Rubik, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:192
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/importer/import.php:44
+msgid "Saas"
+msgstr ""
+
+#: comments.php:107
+msgid "Save my name and email in this browser for the next time I comment."
+msgstr ""
+
+#: template-parts/navigation/navigation-top.php:31
+msgid "Scroll down to content"
+msgstr ""
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr ""
+
+#: inc/page-header/breadcrumbs.php:49
+msgid "Search results for : "
+msgstr ""
+
+#: inc/page-header/page-header-title.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid ""
+"Select pages to feature in each area from the dropdowns. Add an image to a "
+"section by setting a featured image in the page editor. Empty sections will "
+"not be displayed."
+msgstr ""
+
+#: inc/importer/import.php:16
+msgid "SEO"
+msgstr ""
+
+#: inc/importer/import.php:132
+msgid "SEO Optimization"
+msgstr ""
+
+#: inc/helper/widget.php:85
+msgid "Services Sidebar"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: inc/page-header/breadcrumbs.php:27 inc/page-header/page-header-title.php:15
+msgid "Shop"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:28
+msgid "Shop order"
+msgstr ""
+
+#: functions.php:252
+msgid "Shop Sidebar"
+msgstr ""
+
+#: woocommerce/cart/cart.php:23 woocommerce/checkout/form-checkout.php:33
+#: woocommerce/checkout/thankyou.php:22
+msgid "Shopping Cart"
+msgstr ""
+
+#. %d: total results
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:29
+msgid "Showing the single result"
+msgstr ""
+
+#: template-parts/post/post-author-meta.php:38
+msgid "Social Icon :"
+msgstr ""
+
+#: search.php:117
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/header/header-one.php:14
+#: template-parts/header/header-three.php:13
+#: template-parts/header/header-two.php:13
+msgid "sticky-on"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:131
+msgid "Subtotal"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "Tags"
+msgstr ""
+
+#: template-parts/post/post-author-meta.php:24
+msgid "Tags :"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48 woocommerce/checkout/thankyou.php:90
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: 404.php:17
+msgid "The Page You are Looking for does Not Exits."
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Theme Options"
+msgstr ""
+
+#: template-parts/navigation/navigation-top.php:12
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Topbar Menu"
+msgstr ""
+
+#: woocommerce/order/order-details.php:52
+msgid "Total"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:70
+msgid "Total:"
+msgstr ""
+
+#: inc/helper/helper_function.php:64
+msgid "Twitter Account"
+msgstr ""
+
+#: inc/customizer.php:112 inc/customizer.php:171
+msgid "Two Column"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:37
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: woocommerce/cart/cart.php:154
+msgid "Update cart"
+msgstr ""
+
+#: inc/helper/helper_function.php:48
+msgid "User Profile"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+
+#: inc/helper/woocommerce.php:40 template-parts/header/header-cart.php:20
+msgid "View your shopping cart"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:50
+msgid "We are Under Construction mode."
+msgstr ""
+
+#: inc/importer/import.php:102
+msgid "Web Agency"
+msgstr ""
+
+#: inc/importer/import.php:117
+msgid "Web Development"
+msgstr ""
+
+#: inc/importer/import.php:58
+msgid "Web Hosting"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid ""
+"When the two-column layout is assigned, the page title is in one column and "
+"content is in the other."
+msgstr ""
+
+#. 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:37
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/required-plugins.php:58
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:83
+msgid "WP24 Domain Check"
+msgstr ""
+
+#: template-parts/post/content-team.php:21
+msgid "Years of Experience"
+msgstr ""
+
+#: inc/tgm/required-plugins.php:63
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: inc/helper/comment.php:73
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:60
+msgid "Your order"
+msgstr ""
+
+#: inc/helper/helper_function.php:94
+msgid "Youtube Account"
+msgstr ""
+
+#: inc/helper/pagination.php:38
+msgid "« Prev"
+msgstr ""

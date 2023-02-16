@@ -1,0 +1,123 @@
+
+---Downloaded files---
+The import files for: Web Development were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress
+Data file = /var/www/html/wordpress/wp-content/themes/finix/inc/importer/elementer/demo-8/finix-xml.xml
+Widget file = /var/www/html/wordpress/wp-content/themes/finix/inc/importer/elementer/demo-8/finix-widgets.wie
+Customizer file = /var/www/html/wordpress/wp-content/themes/finix/inc/importer/elementer/demo-8/finix-export.dat
+Redux files:
+finix_redux -> /var/www/html/wordpress/wp-content/themes/finix/inc/importer/elementer/demo-8/finix_redux.json 
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import elementor_library_type section
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import elementor_library_type section
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import elementor_library_type section
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import "Default Kit": Invalid post type elementor_library
+[WARNING] Failed to import "Development Section 1": Invalid post type elementor_library
+[WARNING] Failed to import "Left Info Right Form": Invalid post type elementor_library
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Footer 1 : 
+
+Text - No Title - Imported
+Finix Contact Us - No Title - Imported
+
+Footer 2 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer 3 : 
+
+Navigation Menu - Our Services - Imported
+
+Footer 4 : 
+
+Finix Newsletter - Subscribe Now - Imported
+Text - No Title - Imported
+
+Services Sidebar : 
+
+Navigation Menu - No Title - Imported
+
+Header Sidemenu : 
+
+Text - No Title - Imported
+Text - No Title - Imported
+Gallery - Our Gallery - Imported
+Finix Contact Us - Contact Us - Imported
+Finix Social Media - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: finix_redux finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

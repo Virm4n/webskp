@@ -1,0 +1,251 @@
+body {background: #101014;}
+.page-header {background: #151518;}
+.site-header {background: #101014;}
+#site-header.sticky {background: #101014; box-shadow: 0 3px 25px rgb(0 0 0 / 30%);}
+.site-header .header-cart-btn a,
+.site-header .header-search .search-btn {color: #e5e5e5;}
+.site-header .header-sidemenu span {background: #e5e5e5;}
+.single-team .team-detail-info {color: #e5e5e5;}
+
+/*========================================*/
+/* Background */
+/*========================================*/
+.site-content blockquote,
+.finix-profile-cover,
+.sidebar .widget,
+.single-team .team-detail-info,
+.single-post .recent-post .latest-post .post-content {background: #151518;}
+.team-detail-info .contact-info .contact-btn a {background: #ffffff; color: #323232;}
+
+/*========================================*/
+/* Border - Color */
+/*========================================*/
+.widget.widget_tag_cloud ul li a,
+.widget.widget_tag_cloud .wp-block-tag-cloud a,
+.widget_product_tag_cloud .tagcloud a,
+.pagination li a,
+.pagination li span,
+.skill.skill-2 .skill-bar,
+article.post .entry-tags .tags-inner .tags-item,
+.comments-area .comment-details .reply a,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.client-logo-main.style-border .client-logo {border-color: rgba(255,255,255,0.1);}
+
+article.post .blog-content .entry-share-info {border-top-color: rgba(255,255,255,0.1); border-bottom-color: rgba(255,255,255,0.1);}
+
+.single-product div.product .summary .product_meta,
+.woocommerce-checkout #order_review #payment .place-order {border-top-color: rgba(255,255,255,0.1);}
+
+.widget_recent_post ul.recent-post-list li,
+.comments-area .comment-details,
+.woocommerce .woocommerce-layout,
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs:before,
+.woocommerce-cart table.shop_table td,
+.woocommerce-checkout .woocommerce-checkout table.shop_table td {border-bottom-color: rgba(255,255,255,0.1);}
+
+/*========================================*/
+/* Page Header */
+/*========================================*/
+.page-header .svg-effect path {fill: #101014;}
+
+/*========================================*/
+/* Sidemenu */
+/*========================================*/
+.sidemenu-main .sidemenu {background: #151518;}
+
+/*========================================*/
+/* Contact Form */
+/*========================================*/
+.wpcf7-form .wpcf7-form-control-wrap input,
+.wpcf7-form .wpcf7-form-control-wrap select,
+.wpcf7-form .wpcf7-form-control-wrap textarea {background: transparent; border-color: #222222;}
+
+.form-style-flat .wpcf7-form-control-wrap input,
+.form-style-flat .wpcf7-form-control-wrap select,
+.form-style-flat .wpcf7-form-control-wrap textarea {background: #1c1c1c;}
+
+.form-style-border-bottom .wpcf7-form-control-wrap input,
+.form-style-border-bottom .wpcf7-form-control-wrap select,
+.form-style-border-bottom .wpcf7-form-control-wrap textarea {border-bottom-color: #222222;}
+
+/*========================================*/
+/* Portfolio */
+/*========================================*/
+.portfolio-main .portfolio-wrapper .b-isotope-filter.filter-style-1 li a {background: #1c1c1c; color: #ffffff;}
+.portfolio-main .portfolio-wrapper .b-isotope-filter.filter-style-2 li a {border-bottom-color: #222222; color: #ffffff;}
+.portfolio-main .portfolio-wrapper .b-isotope-filter.filter-style-3 li a {border-color: #222222; color: #ffffff;}
+.portfolio-main .portfolio-style-2 .grid-item .item-info,
+.portfolio-main .portfolio-style-3 .grid-item .item-info {background: #101014;}
+
+/*========================================*/
+/* Blog */
+/*========================================*/
+.blog-style-1 .post-inner .post-content {background: #151518;}
+.blog-style-2 .post-inner .post-content {border-color: #222222;}
+.blog-style-2 .post-inner .post-content:before {background: rgba(21,21,24,1);}
+.blog-style-3 .post-inner {background: #151518;}
+.blog-style-3 .post-content .post-link {border-top-color: #222222;}
+.blog-style-3 .post-content .post-link a {color: #ffffff;}
+
+/*========================================*/
+/* Accordion */
+/*========================================*/
+.accordion.accordion-1 .card-header .accordion-title button {background: #ffffff; color: #323232;}
+.accordion.accordion-1 .card-header .accordion-title .collapsed {background: #151518; color: #ffffff;}
+
+.accordion.accordion-2 .card-header .accordion-title button {background: #ffffff; color: #323232;}
+.accordion.accordion-2 .card-header .accordion-title button.collapsed {border-color: #222222; color: #ffffff;}
+
+.accordion.accordion-3 .card {border-bottom-color: #222222 !important;}
+.accordion.accordion-3 .card-header .accordion-title button {color: #ffffff;}
+.accordion.accordion-3 .card-header .accordion-title button.collapsed {color: #ffffff;}
+
+.accordion.accordion-4 {border-color: #222222;}
+.accordion.accordion-4 .card .card-body {background: #151518; border-bottom-color: #222222;}
+.accordion.accordion-4 .card-header .accordion-title button {background: #ffffff; color: #323232; border-bottom-color: #222222;}
+.accordion.accordion-4 .card-header .accordion-title .collapsed {color: #ffffff;}
+
+.accordion.accordion-5 .card .card-body {background: #151518;}
+.accordion.accordion-5 .card-header .accordion-title button {background: #ffffff; color: #323232;}
+.accordion.accordion-5 .card-header .accordion-title .collapsed {background: #151518; color: #ffffff;}
+
+/*========================================*/
+/* Infobox */
+/*========================================*/
+.feature-box.shadow-enable,
+.feature-box.border-hover,
+.feature-box.style-shadow {background: #151518;}
+
+/*========================================*/
+/* Team */
+/*========================================*/
+.team-member.team-style-1 .member-info {background: #151518;}
+
+/*========================================*/
+/* Testimonial */
+/*========================================*/
+.testimonial-main.testimonial-style-1 .testimonial-inner .author-description,
+.testimonial-main.testimonial-style-3 .testimonial-inner {background: #151518;}
+.testimonial-main.testimonial-style-1 .testimonial-inner .author-description:before {border-color: #151518 transparent transparent transparent;}
+
+/*========================================*/
+/* Tabs */
+/*========================================*/
+.tab.tab-style1 .nav-tabs,
+.tab.tab-style3 .nav-tabs,
+.tab.tab-style3 .tab-content {border-color: #222222;}
+.tab.tab-style1 .nav-tabs .nav-item,
+.tab.tab-style3 .nav-tabs .nav-item {border-right-color: #222222;}
+.tab.tab-style3 .nav-tabs .nav-link {background: #151518;}
+
+/*========================================*/
+/* Skill */
+/*========================================*/
+.skill .progress-bar .progress-value {color: #ffffff;}
+.skill.skill-3 .skill-bar {border-bottom-color: #222222;}
+.skill.value-track .progress-bar .progress-value {background: #ffffff; color: #323232;}
+.skill.value-track .progress-bar .progress-value:after {border-top-color: #ffffff;}
+
+/*========================================*/
+/* Rounded Skill */
+/*========================================*/
+.rounded-skill .counter {color: #ffffff;}
+
+/*========================================*/
+/* Pricing Table */
+/*========================================*/
+.pricing-table .pricing-price {color: #ffffff;}
+.pricing-table.pricing-1.selected,
+.pricing-table.pricing-2,
+.pricing-table.pricing-3,
+.pricing-table.pricing-4 {background: #151518;}
+.pricing-table.pricing-1 .pricing-header,
+.pricing-table.pricing-2 .pricing-list li,
+.pricing-table.pricing-3 .pricing-header,
+.pricing-table.pricing-4 .pricing-list li {border-bottom-color: #222222;}
+.pricing-table.pricing-3 {border-color: #222222;}
+
+/*========================================*/
+/* Video */
+/*========================================*/
+.video-box .video-text {color: #ffffff;}
+
+/*========================================*/
+/* Small Feature */
+/*========================================*/
+.small-feature .feature-inner,
+.small-feature.feature-style-2 .feature-inner {background: #151518;}
+.small-feature .feature-inner .feature-title,
+.small-feature.feature-style-2 .feature-inner .feature-title {color: #ffffff;}
+
+/*========================================*/
+/* Team Single */
+/*========================================*/
+.team-detail-info .contact-details ul li i,
+.team-detail-info .contact-info .social-info .social-icon,
+.team-detail-info .contact-info .social-info ul li a {background: rgb(255 255 255 / 3%);}
+
+/*========================================*/
+/* Services Single */
+/*========================================*/
+.widget .menu-service-menu-container ul {background: #151518;}
+.widget .menu-service-menu-container ul li a {background: rgb(255 255 255 / 3%); color: #ffffff;}
+
+/*========================================*/
+/* Portfolio Single */
+/*========================================*/
+.single-portfolio .navigation .nav-links {border-top-color: #222222; border-bottom-color: #222222;}
+.single-portfolio .navigation .post-title {color: #ffffff;}
+
+.single-portfolio .recent-portfolio .latest-portfolio .portfolio-content {background: #151518;}
+
+/*========================================*/
+/* Blog Page */
+/*========================================*/
+.post-meta ul li a,
+.widget_testimonial .author-details .author-position
+.comments-area .comment-details .author-info .comment-meta a {color: #e5e5e5;}
+article.post .entry-tags .tags-inner .tags-item:hover {background: #ffffff; border-color: #ffffff; color: #212121;}
+
+/* Leave a Reply Form */
+.comment-respond .comment-form .comment-form-author input,
+.comment-respond .comment-form .comment-form-email input,
+.comment-respond .comment-form .comment-form-url input,
+.comment-respond .comment-form .comment-form-comment textarea,
+.woocommerce-checkout .woocommerce-billing-fields .form-row .input-text,
+.woocommerce-checkout .woocommerce-additional-fields .form-row .input-text,
+.woocommerce-checkout .woocommerce-billing-fields .form-row .select2-container .select2-selection--single {background: none; color: #ffffff; border-color: rgba(255,255,255,0.1);}
+
+/*========================================*/
+/* Shop Page */
+/*========================================*/
+.single-product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,
+.single-product div.product .summary .product_meta .sku,
+.single-product div.product .summary .product_meta .posted_in a,
+.single-product div.product .summary .product_meta .tagged_as a {color: #e5e5e5;}
+
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs li a {background: #151518;}
+.woocommerce .site-content div.product .woocommerce-tabs ul.wc-tabs li.active a {color: #ffffff; background: #151518;}
+
+.woocommerce-cart table.shop_table th,
+.woocommerce-checkout .site-content #order_review {background: #151518;}
+.woocommerce-checkout .woocommerce-checkout table.shop_table th {background: #1e1d22;}
+.woocommerce-cart table.shop_table .product-name a {color: #e5e5e5;}
+.woocommerce-checkout .woocommerce-checkout .cart-subtotal .amount {color: #e5e5e5;}
+
+.woocommerce_status_bar .status-steps-item span.num {background: #ffffff; color: #212121;}
+.woocommerce-checkout #order_review #payment .payment_methods .woocommerce-notice.woocommerce-info {color: #31708f;}
+
+/*========================================*/
+/* Mobile Bottom Icons */
+/*========================================*/
+.bottom-navbar .navbar-inner .navbar-icon i {color: #323232;}
+
+
+/*========================================*/
+/* Responsive CSS */
+/*========================================*/
+@media screen and (min-width: 992px){
+	.submenu-dark .main-navigation .navbar-nav li .sub-menu {background: #151518;}
+}

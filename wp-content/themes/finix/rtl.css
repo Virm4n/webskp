@@ -1,0 +1,1282 @@
+/*
+Theme Name: finix
+
+Adding support for languages written in a Right To Left (RTL) direction is easy,
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*========================================*/
+/* RTL - General CSS */
+/*========================================*/
+.rtl {
+	text-align: right;
+}
+.pull-left {
+    float: right;
+}
+.pull-right {
+    float: left;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	text-align: right;
+}
+
+/* Swiper Slider Arrow */
+.swiper-container:hover .swiper-button-next {
+    right: auto;
+    left: 15px;
+}
+.swiper-container:hover .swiper-button-prev {
+    left: auto;
+    right: 15px;
+}
+
+/*========================================*/
+/* Bootstrap - General CSS */
+/*========================================*/
+.text-left {
+    text-align: right !important;
+}
+.text-right {
+    text-align: left!important;
+}
+
+.elementor-alert {
+	text-align: right;
+}
+.elementor-alert button.elementor-alert-dismiss {
+	right: auto;
+	left: 10px;
+}
+
+#back-to-top .top {
+    right: auto;
+    left: 45px;
+}
+
+/*=========================================================*/
+/* Site Header */
+/*=========================================================*/
+.header-logo {
+    margin-right: 0;
+    margin-left: auto;
+}
+.header-inner {
+    justify-content: flex-start;
+}
+.site-header .header-sidemenu {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.header-button {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.main-navigation .navbar-nav > li {
+    text-align: right;
+}
+.site-header .header-cart-btn a span {
+    right: auto;
+    left: -5px;
+}
+.site-header .header-shopping-cart {
+    right: auto;
+    left: -50px;
+}
+.site-header ul.woocommerce-mini-cart li {
+    padding-left: 0;
+    padding-right: 70px;
+}
+.site-header ul.woocommerce-mini-cart li a img {
+    left: auto;
+    right: 0;
+}
+.site-header ul.woocommerce-mini-cart li .remove,
+.site-header ul.woocommerce-mini-cart li .remove:hover {
+    left: 0;
+    right: auto;
+}
+.site-header .header-cart-btn a {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/*------------------------*/
+/* Header Default */
+/*------------------------*/
+.header-default .header-inner .header-search,
+.header-default .header-inner .header-search + .header-button {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.main-navigation .navbar-nav > li:last-child {
+    margin-right: 12px;
+    margin-left: 0;
+}
+.main-navigation .navbar-nav > li:first-child {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+/*------------------------*/
+/* Header Classic */
+/*------------------------*/
+.site-header .feature-box.icon-left {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.site-header .feature-box:first-child {
+    margin-right: 0;
+}
+.site-header .feature-box.icon-left .feature-icon {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.site-header.header-classic .header-bottom .navigation-inner {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.site-header.header-classic .header-bottom .search-button {
+    margin-left: 0;
+    margin-right: auto;
+}
+.site-header.header-classic .header-bottom .header-button {
+    margin-right: 0;
+}
+.site-header.header-classic .header-bottom .header-sidemenu {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.site-header.header-classic .header-bottom .header-cart-btn {
+    margin-right: -15px;
+    margin-left: 20px;
+}
+.site-header.header-classic .header-bottom .header-search {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/*------------------------*/
+/* Header Fancy */
+/*------------------------*/
+.header-fancy .header-inner .header-logo {
+    border-right: none;
+    border-left: 1px solid #e8e8e8;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 30px;
+    padding-left: 50px;
+}
+.header-fancy .header-inner .main-navigation {
+    margin-left: 0;
+    margin-right: auto;
+}
+.header-fancy .header-button {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.site-header.header-fancy .header-main .header-inner .feature-box {
+    border-left: none;
+    border-right: 1px solid #e8e8e8;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+.header-transparnt-light .site-header.header-fancy:not(.sticky) .header-main .header-inner .feature-box {
+    border-left: none;
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+.header-transparnt-light .header-fancy:not(.sticky) .header-inner .header-logo {
+    border-right: none;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
+
+/*------------------------*/
+/* Header Sidemenu */
+/*------------------------*/
+.sidemenu-main .sidemenu {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);  
+}
+.sidemenu-main .sidemenu-close {
+    right: auto;
+    left: 30px;
+}
+.widget_feature_info .widget-feature-icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.main-navigation .navbar-nav li.mega-menu .sub-menu .sub-menu {
+    right: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .header-fancy .header-inner .header-logo {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    .main-navigation .navbar-nav {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-navigation .navbar-nav li .sub-menu {
+        left: auto;
+        right: -25px;
+    }
+    .main-navigation .navbar-nav li .sub-menu li.menu-item-has-children:before {
+        content: "\f053";
+        right: auto;
+        left: 15px;
+    }
+    .main-navigation .navbar-nav .sub-menu .sub-menu {
+        left: auto;
+        right: 100%;
+    }
+    .main-navigation .navbar-nav li .sub-menu li a .label {
+        left: auto;
+        right: 100%;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .site-header .slicknav_menu .slicknav_icon-bar {
+        left: auto;
+        right: 0;
+    }
+    .site-header .slicknav_open .slicknav_icon span:nth-child(2) {
+        left: auto;
+        right: -60px;
+    }
+    .site-header .slicknav_nav li .slicknav_arrow {
+        right: auto;
+        left: 0;
+        border-left: none;
+        border-right: 1px solid #e8e8e8;
+    }
+    .site-header.submenu-dark .slicknav_nav li .slicknav_arrow {
+        border-left: none;
+        border-right: 1px solid #2f3544;
+    }
+    .site-header .header-shopping-cart {
+        right: auto;
+        left: -20px;
+        min-width: 280px;
+    }
+    .slicknav_menu .slicknav_nav li .sub-menu li a .label {
+
+    }
+}
+
+@media (max-width: 767px) {
+    .site-header.header-fancy #slicknav_menu {
+        margin-left: 0;
+    }
+}
+
+/*=========================================================*/
+/* Page Header */
+/*=========================================================*/
+.page-header .breadcrumb li:not(:first-child) {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.page-header .breadcrumb li i {
+    padding-right: 0;
+    padding-left: 5px;
+}
+.page-header .breadcrumb li span:before,
+.page-header .page-header-2 .breadcrumb li span:after {
+    content: normal;
+}
+.page-header .breadcrumb li span:after {
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    padding-left: 10px;
+    align-self: center;
+}
+.page-header-inner.page-header-1.header-right .header1-inner {
+    margin-left: 0;
+    margin-right: auto;
+}
+.page-header-inner.page-header-1.header-right .page-title {
+    text-align: left;
+}
+.page-header-inner.page-header-1.header-left .page-title {
+    text-align: right;
+}
+.page-header-inner.page-header-3.breadcrumb-left .page-title {
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .page-header-inner.page-header-3.breadcrumb-right .breadcrumb ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        text-align: left;
+    }
+    .page-header-inner.page-header-3.breadcrumb-left .breadcrumb ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: right;
+    }
+}
+@media (max-width: 991px) {
+    .page-header .page-header-inner .breadcrumb ul {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 10px 0;
+    }
+    .page-header .page-header-inner .breadcrumb ul li {
+        padding: 0 10px;
+    }
+    .page-header-inner.page-header-3.breadcrumb-left .page-title {
+        text-align: center;
+    }
+    .site-header.header-default .header-inner #slicknav_menu,
+    .site-header.header-classic .header-inner #slicknav_menu {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+/*========================================*/
+/* Back to Top */
+/*========================================*/
+.bottom-navbar .mobile-navbar-bg,
+.bottom-navbar .navbar-trigger {
+    right: auto;
+    left: 40px;
+}
+
+/*========================================*/
+/* Elements - Section Title */
+/*========================================*/
+.section-title.text-left,
+.section-title.left {
+	text-align: right;
+}
+.section-title.text-right,
+.section-title.right {
+	text-align: left;
+}
+.section-title.text-right .divider {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/*========================================*/
+/* Elements - Infobox */
+/*========================================*/
+.feature-box.icon-left .feature-icon {
+	margin-right: 0 !important;
+	margin-left: 25px;
+}
+
+/* Icon Right */
+.feature-box.icon-right {
+    text-align: left !important;
+}
+.feature-box.icon-right .feature-icon {
+    margin-left: 0 !important;
+    margin-right: 25px;
+}
+.feature-box.icon-right .feature-info {
+    text-align: left;
+}
+
+/*========================================*/
+/* Elements - List */
+/*========================================*/
+.elementor-section .list ul li i {
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+/*========================================*/
+/* Elements - Skill */
+/*========================================*/
+.skill .progress-bar .progress-value {
+    right: auto;
+    left: 0;
+}
+
+/*========================================*/
+/* Elements - Counter */
+/*========================================*/
+.counter-style-2.icon-right .counter-info {
+    text-align: left;
+}
+.counter-style-2.icon-left .counter-icon {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.counter-style-3 .counter-icon {
+    left: auto !important;
+}
+
+/*========================================*/
+/* Elements - Newsletter */
+/*========================================*/
+.newsletter-main .button-area {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.newsletter-main .button-area button i {
+    padding-left: 8px;
+    padding-right: 0;
+}
+.newsletter-main.button-bottom.align-left .mc4wp-form-fields {
+    text-align: right;
+}
+.newsletter-main.button-bottom.align-right .mc4wp-form-fields {
+    text-align: left;
+}
+.newsletter-main.button-bottom .mc4wp-form-fields .button-area {
+	margin-right: 0;
+}
+
+/*========================================*/
+/* Elements - Contact Form */
+/*========================================*/
+.wpcf7-form .wpcf7-acceptance {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.wpcf7-form .wpcf7-acceptance .wpcf7-list-item {
+	margin-right: 0;
+}
+.wpcf7-form .wpcf7-acceptance input {
+	left: auto;
+	right: 0;
+}
+
+/*========================================*/
+/* Elements - Portfolio */
+/*========================================*/
+.portfolio-main .portfolio-style-2 .grid-item .item-info {
+	text-align: right;
+}
+.portfolio-main .portfolio-style-2 .item-info .popup-link {
+	margin-left: 0;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.portfolio-main .portfolio-style-3 .grid-item .item-info {
+	text-align: right;
+}
+.portfolio-main .portfolio-style-3 .item-info .popup-link {
+	right: auto;
+	left: 30px;
+}
+.portfolio-main .portfolio-style-3 .item-info .popup-link:hover {
+	right: auto;
+	left: 22px;
+}
+
+/*========================================*/
+/* Elements - Accordion */
+/*========================================*/
+.accordion .card-header button {
+    direction: rtl;
+}
+.accordion .accordion-icon.accordion-icon-right {
+    margin-left: 0;
+    margin-right: auto;
+    order: 1;
+}
+.accordion .accordion-icon-left .elementor-accordion-icon-opened,
+.accordion .accordion-icon-left .elementor-accordion-icon-closed {
+    margin-right: 0 !important;
+}
+.accordion .accordion-icon-right .elementor-accordion-icon-opened,
+.accordion .accordion-icon-right .elementor-accordion-icon-closed {
+    margin-left: 0 !important;
+}
+
+/*========================================*/
+/* Elements - Buttons */
+/*========================================*/
+.btn-default.style-default:before {
+    left: 0;
+    right: auto;
+}
+.btn-default.style-default:hover:before {
+    width: 100%;
+    left: auto;
+    right: 0;
+}
+
+.btn-default.style-default .finix-align-icon-left,
+.btn-default.style-border .finix-align-icon-left,
+.btn-default.style-flat .finix-align-icon-left {
+    padding-right: 0 !important;
+    padding-left: 10px;
+}
+.btn-default.style-default .finix-align-icon-right,
+.btn-default.style-border .finix-align-icon-right,
+.btn-default.style-flat .finix-align-icon-right {
+    padding-left: 0 !important;
+    padding-right: 10px;
+}
+.btn-default.icon-animation .finix-button-inner .finix-align-icon-right {
+    right: auto;
+    left: 0;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-right {
+    right: auto;
+    left: -13px;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-right + .finix-button-text {
+    left: 13px;
+}
+
+/* Icon Animation : Left */
+.btn-default.icon-animation .finix-button-inner .finix-align-icon-left {
+    left: auto;
+    right: 0;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-left {
+    left: auto;
+    right: -13px;
+}
+.btn-default.icon-animation .finix-button-inner .finix-align-icon-left + .finix-button-text {
+    right: auto;
+    left: 0;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-left + .finix-button-text {
+    right: auto;
+    left: -13px;
+}
+
+/* Icon Animation : Right */
+.btn-default.icon-animation .finix-button-inner .finix-align-icon-right {
+    right: auto;
+    left: 0;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-right {
+    right: auto;
+    left: -13px;
+}
+.btn-default.icon-animation .finix-button-inner .finix-align-icon-right + .finix-button-text {
+    left: auto;
+    right: 0;
+}
+.btn-default.icon-animation:hover .finix-button-inner .finix-align-icon-right + .finix-button-text {
+    left: auto;
+    right: -13px;
+}
+
+/*========================================*/
+/* Elements - Tabs */
+/*========================================*/
+.tab.tab-style1 .nav-tabs .nav-link i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*========================================*/
+/* Elements - Video */
+/*========================================*/
+.video-box .title-right .video-text {
+    padding-left: 0 !important;
+}
+
+/*========================================*/
+/* Elements - Pricing Table */
+/*========================================*/
+.pricing-table .pricing-list li i {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.pricing-table .text-right .pricing-list li i {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.pricing-table .pricing-list.icon-right li i {
+    margin-left: 0;
+    margin-right: auto;
+}
+.pricing-table .pricing-price > span {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.pricing-table.pricing-2 .highlite-title,
+.pricing-table.pricing-3 .highlite-title,
+.pricing-table.pricing-4 .highlite-title {
+    right: auto;
+    left: 25px;
+}
+.pricing-table.pricing-3 .highlite-title {
+    right: auto;
+    left: -25px;
+}
+.pricing-table.pricing-3 .pricing-icon {
+    right: auto;
+    left: 0;
+}
+.pricing-table.pricing-4 .pricing-icon {
+    right: auto;
+    left: 40px;
+}
+.pricing-table.pricing-4 .pricing-title {
+    left: auto;
+    right: 25px;
+}
+
+/*========================================*/
+/* Elements - Rounded Skill */
+/*========================================*/
+.skill-fuature.skill-right .fuature-inner {
+    text-align: left;
+}
+.skill-fuature.skill-left .fuature-inner {
+    padding-left: 0 !important;
+}
+.skill-fuature.skill-right .fuature-inner {
+    padding-right: 0 !important;
+}
+
+/*========================================*/
+/* Elements - Flipbox */
+/*========================================*/
+.flipbox-main .flipbox-content.align-h-left {
+    text-align: right;
+}
+
+/*========================================*/
+/* Elements - Blog */
+/*========================================*/
+.blog-style-1 .post-inner .post-content .meta-date {
+    margin-left: 0;
+    margin-right: 12px;
+}
+.blog-style-1 .post-inner .post-content .meta-author img {
+    margin-right: 0;
+    margin-left: 7px;
+}
+.blog-style-1 .post-inner .post-image .post-category {
+    left: auto;
+    right: 20px;
+}
+.blog-style-2 .post-inner .post-category {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.blog-style-2 .post-inner .post-category + .meta-date {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.blog-style-2 .post-inner .post-content .read-link i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.blog-style-3 .post-inner .post-meta > div:not(:last-child) {
+    margin-right: 0;
+    margin-left: 18px;
+}
+.blog-style-3 .post-image .meta-date {
+    right: auto;
+    left: 25px;
+}
+.blog-style-3 .post-inner .post-meta a {
+    display: flex;
+}
+.blog-style-3 .post-inner .post-meta i {
+    padding-right: 0;
+    padding-left: 10px;
+}
+.blog-style-3 .post-content .post-link a i {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/*========================================*/
+/* Elements - Team */
+/*========================================*/
+.team-member.team-style-3 .team-social {
+    right: auto;
+    left: 25px;
+}
+.team-member.team-style-4 .member-info .member-name-pos {
+    top: auto;
+    left: auto;
+    right: 30px;
+}
+.team-member.team-style-4 .team-social {
+    right: auto;
+    left: 25px;
+    transform: translateX(20px);
+}
+.team-member.team-style-5 .team-member-inner .team-social {
+    left: auto;
+    right: -10px;
+}
+.team-member.team-style-5 .team-member-inner:hover .team-social {
+    left: auto;
+    right: 20px;
+}
+
+/*========================================*/
+/* Elements - Testimonials */
+/*========================================*/
+.testimonial-main.testimonial-style-1 .testimonial-inner .icon-quote {
+    left: auto;
+    right: 40px;
+}
+.testimonial-main .author-details .author-info {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.testimonial-main.testimonial-style-1 .testimonial-inner .author-description:before {
+    left: auto;
+    right: 55px;
+}
+.testimonial-main.testimonial-style-3 .testimonial-inner .icon-quote {
+    right: auto;
+    left: 40px;
+}
+
+.testimonial-style-2.position-center .swiper-container .swiper-button-next {
+    right: auto;
+    left: 15px;
+}
+.testimonial-style-2.position-center .swiper-container .swiper-button-prev {
+    left: auto;
+    right: 15px;
+}
+
+/*========================================*/
+/* Elements - Small Iconbox */
+/*========================================*/
+.small-feature.feature-style-2 .feature-inner .feature-bg-icon {
+    right: auto;
+    left: -15px;
+}
+.small-feature.feature-style-2.iconbox-left .feature-inner .feature-icon i {
+    margin-right: 0 !important;
+    margin-left: 25px;
+}
+.small-feature.feature-style-2.iconbox-right .feature-inner .feature-icon i {
+    margin-left: 0 !important;
+    margin-right: 25px;
+}
+.small-feature.feature-style-2.iconbox-right .feature-inner .feature-bg-icon {
+    left: auto;
+    right: -15px;
+}
+.small-feature.feature-style-2.iconbox-right .feature-inner .feature-title {
+    text-align: left;
+}
+
+/*========================================*/
+/* Elements - Feature Step */
+/*========================================*/
+.features-step.step-style-1 .step-info {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.features-step.step-style-2 .icons-info {
+    margin-right: 0;
+    margin-left: 25px; 
+}
+.features-step.step-style-1.step-right .step-info,
+.features-step.step-style-2.step-right .step-info {
+    text-align: left;
+}
+.features-step.step-style-2.step-right .icons-info {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.features-step.step-style-1 .icons-info .step-number {
+    left: auto;
+    right: 0;
+}
+.features-step.step-style-1 .icons-info .step-number:before {
+    left: auto;
+    right: 42px;
+}
+.features-step.step-style-1.step-right .icons-info .step-number {
+    right: auto;
+    left: 0;
+}
+.features-step.step-style-1.step-right .icons-info .step-number:before {
+    left: 42px;
+    right: auto;
+}
+.features-step.step-style-1.step-right .step-info {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/*========================================*/
+/* Elements - Domain Check */
+/*========================================*/
+.domain-check .wp24-dc #dc-form-1 #dc-tld-1 {
+    text-align: left;
+}
+.domain-check .wp24-dc #dc-form-1 span {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.domain-check .wp24-dc #dc-form-1 #dc-domain-1 {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/*========================================*/
+/* Elements - Tabs */
+/*========================================*/
+.tab.tab-style2 .nav-tabs.icon-right .nav-link i {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.tab.tab-style2 .nav-tabs.icon-left .nav-link i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.tab.tab-style3 .nav-tabs {
+    padding-right: 0;
+}
+.tab.tab-style3 .nav-tabs .nav-link i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*=========================================================*/
+/* Services Single Page */
+/*=========================================================*/
+.widget .menu-service-menu-container ul li a {
+    border-left: none;
+    border-right: 3px solid transparent;
+}
+.widget .menu-service-menu-container ul li.current-menu-item a,
+.widget .menu-service-menu-container ul li a:hover {
+    border-right: 3px solid;
+}
+.widget .menu-service-menu-container ul li a::before {
+    content: "\f053";
+    right: auto;
+    left: 25px;
+}
+
+/*=========================================================*/
+/* Team Single Page */
+/*=========================================================*/
+.team-detail-info .user-experience {
+    right: auto;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+}
+.single-team .user-quote:before {
+    left: auto;
+    right: 0;
+}
+.team-detail-info .member-info {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.team-detail-info .contact-details ul li i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.team-detail-info .contact-info .contact-btn a {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.team-detail-info .contact-info .social-info {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.team-detail-info .contact-info .social-info ul {
+    left: auto;
+    right: 0;
+}
+.team-detail-info .contact-info .social-info:hover ul {
+    left: auto;
+    right: 58px;
+}
+
+/*=========================================================*/
+/* Portfolio Single Page */
+/*=========================================================*/
+.single-portfolio .nav-links .nav-next {
+    margin-left: 0;
+    text-align: left;
+    margin-right: auto;
+}
+.single-portfolio .navigation .nav-previous a > img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.single-portfolio .navigation .nav-next a > img {
+    margin-left: 0;
+    margin-right: 20px;
+}
+.single-portfolio .recent-portfolio .latest-portfolio .portfolio-content .portfolio-link {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/*=========================================================*/
+/* Blog Page */
+/*=========================================================*/
+.post-meta ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 18px;
+}
+.pagination li:not(:last-child) {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.site-content blockquote {
+    padding-left: 35px !important;
+    padding-right: 125px !important;
+}
+article.post .blog-media blockquote .icon-quote,
+article.page .blog-media blockquote .icon-quote,
+article.team .blog-media blockquote .icon-quote,
+article.portfolio .blog-media blockquote .icon-quote {
+    left: auto;
+    right: 40px;
+}
+.site-content blockquote:before {
+    left: auto;
+    right: 45px;
+}
+.site-content blockquote:after {
+    right: auto;
+    left: 50px;
+}
+article.post .read-more i,
+article.page .read-more i,
+article.team .read-more i,
+article.portfolio .read-more i {
+    padding-left: 0;
+    padding-right: 8px;
+}
+article.post .blog-media .category-main {
+    left: auto;
+    right: 25px;
+}
+.blog-layout-list article.post .blog-media {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/*----------------------*/
+/* Blog Single */
+/*----------------------*/
+article.post .entry-social .social-title {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.finix-profile-cover .finix-profile-avatar {
+   margin-right: 0;
+    margin-left: 30px; 
+}
+.single-post .post-navigation .nav-links .nav-next {
+    text-align: left;
+}
+.single-post .recent-post .latest-post .post-link .read-more i {
+    padding-left: 0;
+    padding-right: 8px;
+}
+.comments-area .comment-details {
+    margin-left: 0;
+    margin-right: 100px;
+}
+.comments-area ol > li > ol.children {
+    margin-left: 0;
+    margin-right: 50px;
+}
+.comments-area li.comment .comment-body .comment-author {
+    left: auto;
+    right: 0;
+}
+.comments-area li.comment .comment-respond {
+    padding-left: 0;
+    padding-right: 100px;
+}
+.comment-respond .comment-form .comment-form-cookies-consent label {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+/*----------------------*/
+/* Blog Sidebar */
+/*----------------------*/
+.widget.widget_search .search-form .search-field,
+.search-no-results .site-content .search-form .search-field,
+.wc-block-product-search .wc-block-product-search__fields .wc-block-product-search__field {
+    padding-right: 15px;
+    padding-left: 50px;
+}
+.widget.widget_search .search-form .search-submit,
+.search-no-results .site-content .search-form .search-submit,
+.wc-block-product-search .wc-block-product-search__fields .wc-block-product-search__button {
+    right: auto;
+    left: 7px;
+}
+.sidebar .widget .widget-title,
+.elementor-column .widget .widget-title,
+.sidebar .widget .wp-block-group__inner-container > h2,
+.sidebar .widget .wp-block-woocommerce-attribute-filter > h3 {
+    border-left: none;
+    border-right: 4px solid  #fc682d;
+}
+.widget.widget_archive ul li,
+.widget.widget_categories ul li,
+.wc-block-product-categories ul li {
+    text-align: left;
+}
+.widget.widget_archive ul li a,
+.widget.widget_categories ul li a,
+.wc-block-product-categories ul li a {
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 15px;
+}
+.widget .wp-block-categories li a:before,
+.widget.widget_categories ul li a:before,
+.wc-block-product-categories ul li a:before {
+    left: auto;
+    right: 0;
+    float: right;
+    padding-right: 0;
+    padding-left: 13px;
+}
+.widget_recent_post .recent-post-list .post-thumbnail {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.widget_newsletter .newsletter-form.style-1 .button-area button i {
+    padding-right: 0;
+    padding-left: 8px;
+}
+.widget_newsletter .newsletter-form.style-2 .input-area input {
+    border-left: none;
+    border-right: 2px solid rgb(150 150 150 / 0.3);
+}
+.widget_newsletter .newsletter-form.style-2 .button-area button {
+    border-radius: 5px 0 0 5px;
+}
+.widget_testimonial .author-details .author-photo {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.widget_testimonial .testimonial-inner .author-content:before {
+    left: auto;
+    right: 55px;
+}
+.widget_contact .footer-address ul li i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/*=========================================================*/
+/* Shop Page */
+/*=========================================================*/
+.woocommerce .woocommerce-layout .woocommerce-result-count {
+    margin-right: 0;
+    margin-left: auto;
+}
+.woocommerce .woocommerce-layout .finix-switch-layout {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.woocommerce ul.products li.product span.soldout,
+.woocommerce ul.products li.product span.onsale {
+    left: auto;
+    right: 18px;
+}
+.woocommerce ul.products li.product .product-block-inner .product-thumbnail .yith-wcwl-add-to-wishlist {
+    right: auto;
+    left: 20px;
+}
+.woocommerce nav.woocommerce-pagination ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.widget li .count {
+    float: left;
+}
+.widget ul li > ul {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+/*----------------------*/
+/* Shop List */
+/*----------------------*/
+.woocommerce ul.products.product-list-view li.product .product-block-inner .product-thumbnail {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/*----------------------*/
+/* Shop Single */
+/*----------------------*/
+.woocommerce-error a.button, .woocommerce-info a.button, .woocommerce-message a.button {
+    left: 25px;
+    right: auto;
+}
+.single-product div.product .woocommerce-product-gallery ol.flex-control-thumbs {
+    padding-right: 0;
+    padding-left: 5px;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.woocommerce #content .product-image-summary-inner .product-summary .summary, .woocommerce .product-image-summary-inner .product-summary .summary {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.single-product div.product div.images .woocommerce-product-gallery__trigger {
+    right: auto;
+    left: 25px;
+}
+.single-product div.product .summary .yith-wcwl-add-to-wishlist .add_to_wishlist .yith-wcwl-icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.summary .cart .quantity .qty,
+.summary .cart .quantity .qty:focus-visible {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.single-product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a,
+.single-product div.product .summary .product_meta .sku,
+.single-product div.product .summary .product_meta .posted_in a,
+.single-product div.product .summary .product_meta .tagged_as a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 100px 0 0;
+}
+.woocommerce ul.products li.product .product-block-inner .product-info .price-detail .star-rating {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/*----------------------*/
+/* Shop Cart */
+/*----------------------*/
+.woocommerce_status_bar .status-steps-item label {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.woocommerce_status_bar .status-steps-item:before {
+    font-family: "Ionicons";
+    content: "\f3d6";
+    position: absolute;
+    right: -35px;
+    top: 0;
+    bottom: 0;
+    font-size: 28px;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+}
+.woocommerce_status_bar .status-steps-item:first-child:before {
+    content: normal;
+}
+
+/*----------------------*/
+/* Shop Checkout */
+/*----------------------*/
+.woocommerce-checkout .site-content #customer_details {
+    float: right;
+    padding-right: 0;
+    padding-left: 50px;
+}
+.woocommerce-checkout .site-content #order_review {
+    float: left;
+}
+.woocommerce-checkout #order_review #payment .payment_methods .woocommerce-notice:before {
+    right: auto;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+    border-left: none;
+    border-right: 3px solid transparent;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li.is-active a,
+.woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
+    border-right: 3px solid;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li a::before {
+    content: "\f053";
+    right: auto;
+    left: 25px;
+}
+
+/*========================================================*/
+/* Responsive - 991 */
+/*=======================================================*/
+@media (max-width:1200px) {
+    .woocommerce #content .product-image-summary-inner .product-summary .summary, .woocommerce .product-image-summary-inner .product-summary .summary {
+        padding-right: 0;
+    }
+}
+
+@media (max-width:991px) {
+
+    /* Infobox ----------*/
+    .feature-box.icon-right.tablet-icon-left .feature-info {
+        text-align: right;
+        order: 2;
+        margin-right: 25px;
+    }
+
+    .team-detail-info .contact-info .social-info:hover ul {
+        left: auto;
+        right: auto;
+    }
+}
+
+
+@media (max-width:767px) {
+
+    /* Infobox ----------*/
+    .feature-box.icon-right.tablet-icon-left .feature-info {
+        text-align: right;
+        order: 2;
+        margin-right: 25px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .comments-area .comment-details {
+        margin-right: 0;
+    }
+}

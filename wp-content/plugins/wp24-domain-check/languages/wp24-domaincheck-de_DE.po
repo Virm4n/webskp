@@ -1,0 +1,1310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP24 Domain Check\n"
+"POT-Creation-Date: 2023-01-28 12:06+0100\n"
+"PO-Revision-Date: 2023-01-28 12:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wp24-options.php:26
+msgid "desired-domain"
+msgstr "wunschdomain"
+
+#: includes/class-wp24-options.php:34
+msgid "all"
+msgstr "alle"
+
+#: includes/class-wp24-options.php:37
+msgid "check"
+msgstr "prüfen"
+
+#: includes/class-wp24-options.php:39
+msgid "whois"
+msgstr "whois"
+
+#: includes/class-wp24-options.php:42
+msgid "No free domain found."
+msgstr "Keine freie Domain gefunden."
+
+#: includes/class-wp24-options.php:44
+msgid "more"
+msgstr "mehr"
+
+#: includes/class-wp24-options.php:45
+msgid "is available"
+msgstr "ist verfügbar"
+
+#: includes/class-wp24-options.php:47
+msgid "is registered"
+msgstr "ist registriert"
+
+#: includes/class-wp24-options.php:49
+msgid "error"
+msgstr "Fehler"
+
+#: includes/class-wp24-options.php:51
+msgid "is invalid"
+msgstr "ist ungültig"
+
+#: includes/class-wp24-options.php:53
+msgid "query limit reached"
+msgstr "Abfragelimit erreicht"
+
+#: includes/class-wp24-options.php:55
+msgid "whois server unknown"
+msgstr "Whois Server unbekannt"
+
+#: includes/class-wp24-options.php:57
+msgid ".[tld] is not supported"
+msgstr ".[tld] wird nicht unterstützt"
+
+#: includes/class-wp24-options.php:59
+msgid "Please enter a domain extension"
+msgstr "Bitte eine Domainendung eingeben"
+
+#: includes/class-wp24-options.php:69 includes/class-wp24-options.php:106
+msgid "[link]buy now[/link] for [price]"
+msgstr "[link]jetzt kaufen[/link] für [price]"
+
+#: includes/class-wp24-options.php:74 includes/class-wp24-options.php:109
+msgid "[link]transfer now[/link] for [price]"
+msgstr "[link]jetzt übertragen[/link] für [price]"
+
+#: includes/class-wp24-options.php:91
+msgid "is probably available"
+msgstr "ist wahrscheinlich verfügbar"
+
+#: includes/class-wp24-options.php:94
+msgid "verify"
+msgstr "überprüfen"
+
+#: includes/class-wp24-options.php:102
+msgid "add to cart"
+msgstr "in Warenkorb legen"
+
+#: includes/class-wp24-options.php:103
+msgid "added to cart"
+msgstr "in Warenkorb gelegt"
+
+#: includes/class-wp24-options.php:104
+msgid "Domain"
+msgstr "Domain"
+
+#: includes/class-wp24-options.php:110
+msgid "(Transfer)"
+msgstr "(Transfer)"
+
+#: includes/class-wp24-options.php:122
+msgid "reCAPTCHA check failed"
+msgstr "reCAPTCHA Prüfung fehlgeschlagen"
+
+#: includes/class-wp24-settings.php:64 includes/class-wp24-settings.php:1210
+msgid "None"
+msgstr "Keiner"
+
+#: includes/class-wp24-settings.php:198 includes/class-wp24-settings.php:1340
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/class-wp24-settings.php:216
+msgid "Domain Name Field"
+msgstr "Domain Name Feld"
+
+#: includes/class-wp24-settings.php:220 includes/class-wp24-settings.php:358
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/class-wp24-settings.php:232
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: includes/class-wp24-settings.php:244
+msgid "Width"
+msgstr "Breite"
+
+#: includes/class-wp24-settings.php:254
+msgid "Pixel"
+msgstr "Pixel"
+
+#: includes/class-wp24-settings.php:255
+msgid "Percent"
+msgstr "Prozent"
+
+#: includes/class-wp24-settings.php:262
+msgid "Top-Level Domain (TLD) Input"
+msgstr "Top-Level Domain (TLD) Eingabe"
+
+#: includes/class-wp24-settings.php:266
+msgid "Selection type"
+msgstr "Auswahl Typ"
+
+#: includes/class-wp24-settings.php:274
+msgid "Drop-Down List"
+msgstr "Drop-Down Liste"
+
+#: includes/class-wp24-settings.php:275
+msgid "Select the TLD from predefinded list, only TLDs listed below allowed"
+msgstr ""
+"TLD aus vordefinierter Liste auswählen, nur unten aufgeführte TLDs sind "
+"zulässig"
+
+#: includes/class-wp24-settings.php:276
+msgid "Drop-Down Grouped"
+msgstr "Drop-Down Gruppiert"
+
+#: includes/class-wp24-settings.php:277
+msgid "Select the TLD from grouped list, only TLDs listed below allowed"
+msgstr ""
+"TLD aus gruppierter Liste auswählen, nur unten aufgeführte TLDs sind zulässig"
+
+#: includes/class-wp24-settings.php:278
+msgid "Free Text Limited"
+msgstr "Freitext Eingabe Begrenzt"
+
+#: includes/class-wp24-settings.php:279
+msgid "Type the TLD into domain name field, only TLDs listed below allowed"
+msgstr ""
+"TLD in Feld für Domainnamen eingeben, nur unten aufgeführte TLDs sind "
+"zulässig"
+
+#: includes/class-wp24-settings.php:280
+msgid "Free Text Unlimited"
+msgstr "Freitext Eingabe Unbegrenzt"
+
+#: includes/class-wp24-settings.php:281
+msgid "Type the TLD into domain name field, all available TLDs allowed"
+msgstr ""
+"TLD in Feld für Domainnamen eingeben, alle verfügbaren TLDs sind zulässig"
+
+#: includes/class-wp24-settings.php:288 includes/class-wp24-settings.php:1982
+msgid "TLDs"
+msgstr "TLDs"
+
+#: includes/class-wp24-settings.php:295
+msgid "Comma separated list of testable TLDs without leading point."
+msgstr "Kommagetrennte Liste testbarer TLDs ohne führenden Punkt."
+
+#: includes/class-wp24-settings.php:296
+msgid ""
+"Grouped example: <code>[Group 1], com, net, org, [Group 2], info, eu</code>."
+msgstr ""
+"Gruppierung Beispiel: <code>[Gruppe 1], com, net, org, [Gruppe 2], info, eu</"
+"code>."
+
+#: includes/class-wp24-settings.php:302
+msgid "Multicheck"
+msgstr "Multicheck"
+
+#: includes/class-wp24-settings.php:309
+msgid "Check multiple domains separated by comma."
+msgstr "Überprüfung mehrerer durch Komma getrennter Domains."
+
+#: includes/class-wp24-settings.php:313
+msgid "Check All"
+msgstr "Alle prüfen"
+
+#: includes/class-wp24-settings.php:317
+msgid "Check all"
+msgstr "Alle prüfen"
+
+#: includes/class-wp24-settings.php:324
+msgid "Allow to check all testable TLDs simultaneously."
+msgstr "Prüfung aller testbaren TLDs gleichzeitig erlauben."
+
+#: includes/class-wp24-settings.php:330
+msgid "Check all label"
+msgstr "Alle prüfen Beschriftung"
+
+#: includes/class-wp24-settings.php:337
+msgid "Label of option in drop-down list."
+msgstr "Bezeichnung der Option in der Dropdown-Liste."
+
+#: includes/class-wp24-settings.php:343
+msgid "Check all default"
+msgstr "Alle prüfen Standard"
+
+#: includes/class-wp24-settings.php:350
+msgid "Preselect all in drop-down list."
+msgstr "Alle in Dropdown-Liste vorwählen."
+
+#: includes/class-wp24-settings.php:354
+msgid "Check Button"
+msgstr "Prüfen Button"
+
+#: includes/class-wp24-settings.php:368
+msgid "Whois Link"
+msgstr "Whois Link"
+
+#: includes/class-wp24-settings.php:372
+msgid "Whois link"
+msgstr "Whois Link"
+
+#: includes/class-wp24-settings.php:379
+msgid ""
+"Show a link to open detailed whois information if the domain is registered."
+msgstr ""
+"Link anzeigen um detaillierte Whois-Informationen zu öffnen wenn die Domain "
+"registriert ist."
+
+#: includes/class-wp24-settings.php:380
+msgid "Deactivation is recommended when using TLDs with query limit."
+msgstr ""
+"Die Deaktivierung wird empfohlen, wenn TLDs mit Abfragelimit verwendet "
+"werden."
+
+#: includes/class-wp24-settings.php:386
+msgid "Whois link label"
+msgstr "Whois Link Beschriftung"
+
+#: includes/class-wp24-settings.php:396
+msgid "Result Settings"
+msgstr "Ergebnis Einstellungen"
+
+#: includes/class-wp24-settings.php:400
+msgid "Display type"
+msgstr "Anzeigetyp"
+
+#: includes/class-wp24-settings.php:408
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/class-wp24-settings.php:409
+msgid "Show results directly under the check form"
+msgstr "Ergebnisse direkt unter dem Prüfformular anzeigen"
+
+#: includes/class-wp24-settings.php:410
+msgid "Gradual loading"
+msgstr "Schrittweises Laden"
+
+#: includes/class-wp24-settings.php:411
+msgid "Show loading icon on search button and display results gradually"
+msgstr ""
+"Ladesymbol auf Such-Button anzeigen und Ergebnisse schrittweise einblenden"
+
+#: includes/class-wp24-settings.php:412
+msgid "Overlay"
+msgstr "Overlay"
+
+#: includes/class-wp24-settings.php:413
+msgid "Show results in an overlaying window"
+msgstr "Ergebnisse in überlagerndem Fenster anzeigen"
+
+#: includes/class-wp24-settings.php:420
+msgid "Exclude registered"
+msgstr "Registrierte ausschließen"
+
+#: includes/class-wp24-settings.php:427
+msgid "Show free domains only."
+msgstr "Nur freie Domains anzeigen."
+
+#: includes/class-wp24-settings.php:433
+msgid "No results message"
+msgstr "Keine Ergebnisse Meldung"
+
+#: includes/class-wp24-settings.php:440
+msgid "Message to display if all domains are already registered."
+msgstr ""
+"Meldung, welche angezeigt werden soll, wenn alle Domains bereits registriert "
+"sind."
+
+#: includes/class-wp24-settings.php:446
+msgid "Display limit"
+msgstr "Anzeigelimit"
+
+#: includes/class-wp24-settings.php:453
+msgid ""
+"Limit results to this value and show \"load more\" button, 0 for no limit."
+msgstr ""
+"Begrenzung der Ergebnisse auf diesen Wert und \"mehr laden\" Button "
+"anzeigen, 0 für keine Begrenzung."
+
+#: includes/class-wp24-settings.php:459
+msgid "Load more label"
+msgstr "Mehr laden Beschriftung"
+
+#: includes/class-wp24-settings.php:473
+msgid "Unsupported TLD Settings"
+msgstr "Nicht unterstützte TLD Einstellungen"
+
+#: includes/class-wp24-settings.php:477
+msgid "Unsupported TLDs"
+msgstr "Nicht unterstützte TLDs"
+
+#: includes/class-wp24-settings.php:485
+msgid "Allow checking of unsupported (no whois server available) TLDs."
+msgstr ""
+"Überprüfung nicht unterstützter TLDs ermöglichen (kein Whois-Server "
+"verfügbar)."
+
+#: includes/class-wp24-settings.php:486 includes/class-wp24-settings.php:1634
+msgid "Check result may not be a 100 percent correct."
+msgstr "Prüfergebnis ist möglicherweise nicht 100 Prozent korrekt."
+
+#: includes/class-wp24-settings.php:487 includes/class-wp24-settings.php:1635
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: includes/class-wp24-settings.php:493 includes/class-wp24-settings.php:1313
+msgid "Text / Color"
+msgstr "Text / Farbe"
+
+#: includes/class-wp24-settings.php:514
+msgid "Verification link"
+msgstr "Bestätigungslink"
+
+#: includes/class-wp24-settings.php:522
+msgid "Show external whois page link to verify available domain."
+msgstr ""
+"Link zur externen Whois-Seite anzeigen, um die verfügbare Domain zu "
+"bestätigen."
+
+#: includes/class-wp24-settings.php:523
+msgid "Available for"
+msgstr "Verfügbar für"
+
+#: includes/class-wp24-settings.php:529
+msgid "Verification link text"
+msgstr "Bestätigungslink Text"
+
+#: includes/class-wp24-settings.php:542
+msgid "Misc Settings"
+msgstr "Sonstige Einstellungen"
+
+#: includes/class-wp24-settings.php:546
+msgid "Link registered"
+msgstr "Link registriert"
+
+#: includes/class-wp24-settings.php:553
+msgid "Show a hyperlink instead of only text if a domain is registered."
+msgstr "Hyperlink statt nur Text anzeigen, wenn eine Domain registriert ist."
+
+#: includes/class-wp24-settings.php:559
+msgid "Dot in drop-down"
+msgstr "Punkt in Drop-Down Liste"
+
+#: includes/class-wp24-settings.php:566
+msgid "Display the dot inside the drop-down list, instead of before it."
+msgstr "Punkt in Drop-Down Liste anzeigen, anstatt davor."
+
+#: includes/class-wp24-settings.php:572
+msgid "Use nonces"
+msgstr "Nonces verwenden"
+
+#: includes/class-wp24-settings.php:579
+msgid ""
+"A nonce (number used once) additionally helps to protect from misuse."
+"<br>(Disable when using caching or compression.)"
+msgstr ""
+"Eine Nonce (number used once) schützt zusätzlich vor Missbrauch."
+"<br>(Deaktivieren, wenn Caching oder Komprimierung verwendet werden.)"
+
+#: includes/class-wp24-settings.php:585
+msgid "Multiple use"
+msgstr "Mehrfachverwendung"
+
+#: includes/class-wp24-settings.php:592
+msgid ""
+"Activate when using multiple shortcodes on one page.<br>(Could cause "
+"problems when using caching or compression.)"
+msgstr ""
+"Aktivieren wenn mehrere Shortcodes auf einer Seite verwendet werden."
+"<br>(Kann Probleme bei Caching oder Komprimierung verursachen.)"
+
+#: includes/class-wp24-settings.php:598
+msgid "Whois comments"
+msgstr "Whois Kommentare"
+
+#: includes/class-wp24-settings.php:605
+msgid "Remove comments (starting with %) from whois information."
+msgstr "Kommentare (beginnend mit %) aus Whois Informationen entfernen."
+
+#: includes/class-wp24-settings.php:610
+msgid "Alternative Suggestions"
+msgstr "Alternative Vorschläge"
+
+#: includes/class-wp24-settings.php:614
+msgid "Prefixes"
+msgstr "Präfixe"
+
+#: includes/class-wp24-settings.php:621
+msgid "Comma separated list of prefixes for alternative domain names."
+msgstr "Kommagetrennte Liste von Präfixen für alternative Domainnamen."
+
+#: includes/class-wp24-settings.php:627
+msgid "Suffixes"
+msgstr "Suffixe"
+
+#: includes/class-wp24-settings.php:634
+msgid "Comma separated list of suffixes for alternative domain names."
+msgstr "Kommagetrennte Liste von Suffixen für alternative Domainnamen."
+
+#: includes/class-wp24-settings.php:639
+msgid "Form Settings"
+msgstr "Formular Einstellungen"
+
+#: includes/class-wp24-settings.php:643
+msgid "HTML form"
+msgstr "HTML Formular"
+
+#: includes/class-wp24-settings.php:650
+msgid "Use HTML form with submit button."
+msgstr "HTML Formular mit Senden-Button verwenden."
+
+#: includes/class-wp24-settings.php:651
+msgid "Deactivate to use a regular button without a form."
+msgstr "Deaktivieren um einen normalen Button ohne Formular zu verwenden."
+
+#: includes/class-wp24-settings.php:652
+msgid ""
+"Use shortcode <code>[wp24_domaincheck html_form=\"0\"]</code> to deactivate "
+"for one specific instance."
+msgstr ""
+"Shortcode <code>[wp24_domaincheck html_form=\"0\"]</code> zum Deaktivieren "
+"für eine bestimmte Instanz verwenden."
+
+#: includes/class-wp24-settings.php:658
+msgid "Domain fieldname"
+msgstr "Domain Feldname"
+
+#: includes/class-wp24-settings.php:670
+msgid "TLD fieldname"
+msgstr "TLD Feldname"
+
+#: includes/class-wp24-settings.php:682
+msgid "Query limits"
+msgstr "Abfragelimit"
+
+#: includes/class-wp24-settings.php:697
+msgid "60 queries per hour (untrusted source)"
+msgstr "60 Abfragen pro Stunde (nicht vertrauenswürdige Quelle)"
+
+#: includes/class-wp24-settings.php:698
+msgid "7,200 queries per hour (trusted source)"
+msgstr "7.200 Abfragen pro Stunde (vertrauenswürdige Quelle)"
+
+#: includes/class-wp24-settings.php:700
+msgid ""
+"Due to technical conditions, this plugin cannot guarantee to 100% that the "
+"query limit will not be exceeded."
+msgstr ""
+"Aufgrund technischer Gegebenheiten kann dieses Plugin nicht zu 100% "
+"garantieren, dass das Abfragelimit nicht überschritten wird."
+
+#: includes/class-wp24-settings.php:701 includes/class-wp24-settings.php:722
+#: includes/class-wp24-settings.php:1208 includes/class-wp24-settings.php:1386
+msgid "See"
+msgstr "Siehe"
+
+#: includes/class-wp24-settings.php:703
+msgid "Affected TLDs"
+msgstr "Betroffene TLDs"
+
+#: includes/class-wp24-settings.php:711
+msgid "Developer Settings"
+msgstr "Entwickler Einstellungen"
+
+#: includes/class-wp24-settings.php:715
+msgid "Enable hooks"
+msgstr "Hooks aktivieren"
+
+#: includes/class-wp24-settings.php:734
+msgid "Available"
+msgstr "Verfügbar"
+
+#: includes/class-wp24-settings.php:746
+msgid "Registered"
+msgstr "Registriert"
+
+#: includes/class-wp24-settings.php:758
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/class-wp24-settings.php:770
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: includes/class-wp24-settings.php:782
+msgid "Limit"
+msgstr "Limit"
+
+#: includes/class-wp24-settings.php:791
+msgid ""
+"Some whois servers have an access control limit to prevent excessive use,"
+"<br>so the number of queries per network and time interval is limited."
+msgstr ""
+"Einige Whois-Server verfügen über ein Zugriffssteuerungslimit, um eine "
+"übermäßige Verwendung zu verhindern.<br>Daher ist die Anzahl der Abfragen "
+"pro Netzwerk und Zeitintervall begrenzt."
+
+#: includes/class-wp24-settings.php:798
+msgid "Unsupported"
+msgstr "Nicht unterstützt"
+
+#: includes/class-wp24-settings.php:807
+msgid ""
+"Only needed if selection type is free text input.<br>Use <strong>[tld]</"
+"strong> as placeholder for the TLD."
+msgstr ""
+"Nur benötigt bei Auswahl Typ Freitext. <br>Verwenden Sie <strong>[tld]</"
+"strong> als Platzhalter für die TLD."
+
+#: includes/class-wp24-settings.php:814
+msgid "TLD missing"
+msgstr "TLD fehlt"
+
+#: includes/class-wp24-settings.php:823
+msgid ""
+"Only needed if selection type is free text input and check all is disabled."
+msgstr ""
+"Nur benötigt wenn Auswahl Typ Freitext ist und Alle Prüfen deaktiviert ist."
+
+#: includes/class-wp24-settings.php:830
+msgid "Whois server unknown"
+msgstr "Whois Server unbekannt"
+
+#: includes/class-wp24-settings.php:842
+msgid "No input"
+msgstr "Keine Eingabe"
+
+#: includes/class-wp24-settings.php:851
+msgid ""
+"Leave empty to use browser specific \"Please fill out this field\" message."
+msgstr ""
+"Leer lassen um browserspezifische Meldung \"Bitte füllen Sie dieses Feld "
+"aus\" zu verwenden."
+
+#: includes/class-wp24-settings.php:858
+msgid "Invalid input"
+msgstr "Ungültige Eingabe"
+
+#: includes/class-wp24-settings.php:867
+msgid ""
+"Leave empty to use browser specific \"Please match the requested format\" "
+"message."
+msgstr ""
+"Leer lassen um browserspezifische Meldung \"Bitte halten Sie sich an das "
+"vorgegebene Format\" zu verwenden."
+
+#: includes/class-wp24-settings.php:877 includes/class-wp24-settings.php:1102
+msgid "Purchase (for available domains)"
+msgstr "Kauf (für verfügbare Domains)"
+
+#: includes/class-wp24-settings.php:881
+msgid "Purchase prices"
+msgstr "Kaufpreise"
+
+#: includes/class-wp24-settings.php:893
+msgid "Default purchase price"
+msgstr "Standard-Kaufpreis"
+
+#: includes/class-wp24-settings.php:905
+msgid "Purchase links"
+msgstr "Kauflinks"
+
+#: includes/class-wp24-settings.php:917
+msgid "Default purchase link"
+msgstr "Standard-Kauflink"
+
+#: includes/class-wp24-settings.php:924 includes/class-wp24-settings.php:990
+msgid ""
+"Use <strong>[domain]</strong> as placeholder for the domain name and "
+"<strong>[tld]</strong> as placeholder for the TLD."
+msgstr ""
+"Verwenden Sie <strong>[domain]</strong> als Platzhalter für den Domainnamen "
+"und <strong>[tld]</strong> als Platzhalter für die TLD."
+
+#: includes/class-wp24-settings.php:930 includes/class-wp24-settings.php:1120
+msgid "Purchase text"
+msgstr "Kaufen Text"
+
+#: includes/class-wp24-settings.php:937 includes/class-wp24-settings.php:1003
+#: includes/class-wp24-settings.php:1128 includes/class-wp24-settings.php:1174
+msgid ""
+"Use <strong>[price]</strong> as placeholder for the price and "
+"<strong>[link]</strong>linktext<strong>[/link]</strong> as placeholder for "
+"the link or <strong>[button]</strong>buttontext<strong>[/button]</strong> to "
+"use a button instead of a link."
+msgstr ""
+"<strong>[price]</strong> als Platzhalter für den Preis und <strong>[link]</"
+"strong>Linktext<strong>[/link]</strong> als Platzhalter für den Link oder "
+"<strong>[button]</strong>Buttontext<strong>[/button]</strong> um einen "
+"Button zu verwenden."
+
+#: includes/class-wp24-settings.php:938 includes/class-wp24-settings.php:1004
+#: includes/class-wp24-settings.php:1129 includes/class-wp24-settings.php:1175
+msgid ""
+"Use <strong>[link newpage]</strong> or <strong>[button newpage]</strong> to "
+"open link in a new window/tab."
+msgstr ""
+"Verwenden Sie <strong>[link newpage]</strong> oder <strong>[button newpage]</"
+"strong>um den Link in einem neuen Fenster/Tab zu öffnen."
+
+#: includes/class-wp24-settings.php:943 includes/class-wp24-settings.php:1134
+msgid "Transfer (for registered domains)"
+msgstr "Transfer (für registrierte Domains)"
+
+#: includes/class-wp24-settings.php:947
+msgid "Transfer prices"
+msgstr "Transferpreise"
+
+#: includes/class-wp24-settings.php:959
+msgid "Default transfer price"
+msgstr "Standard Transferpreis"
+
+#: includes/class-wp24-settings.php:971
+msgid "Transfer links"
+msgstr "Transferlinks"
+
+#: includes/class-wp24-settings.php:983
+msgid "Default transfer link"
+msgstr "Standard Transferlink"
+
+#: includes/class-wp24-settings.php:996 includes/class-wp24-settings.php:1166
+msgid "Transfer text"
+msgstr "Transfer Text"
+
+#: includes/class-wp24-settings.php:1015
+msgid "Integration"
+msgstr "Integration"
+
+#: includes/class-wp24-settings.php:1023 includes/class-wp24-settings.php:1146
+#: includes/class-wp24-settings.php:2092 includes/class-wp24-settings.php:2105
+#: includes/class-wp24-settings.php:2111 includes/class-wp24-settings.php:2122
+#: includes/class-wp24-settings.php:2128
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: includes/class-wp24-settings.php:1024
+msgid "If enabled prices &amp; links will be disabled."
+msgstr "Wenn aktiviert werden Preise &amp; Links deaktiviert."
+
+#: includes/class-wp24-settings.php:1030
+msgid "Add to cart behaviour"
+msgstr "Zum Warenkorb hinzufügen Verhalten"
+
+#: includes/class-wp24-settings.php:1039
+msgid "Redirect to cart page"
+msgstr "Zum Warenkorb umleiten"
+
+#: includes/class-wp24-settings.php:1040
+msgid "Stay on current page (links)"
+msgstr "Auf aktueller Seite bleiben (Links)"
+
+#: includes/class-wp24-settings.php:1041
+msgid "Stay on current page (checkboxes)"
+msgstr "Auf aktueller Seite bleiben (Checkboxen)"
+
+#: includes/class-wp24-settings.php:1042
+msgid "Redirect to custom page"
+msgstr "Zur benutzerdefinierten Seite umleiten"
+
+#: includes/class-wp24-settings.php:1049
+msgid "Custom page link"
+msgstr "Benutzerdefinierter Link"
+
+#: includes/class-wp24-settings.php:1062
+msgid "Add to cart text"
+msgstr "Warenkorb hinzufügen Text"
+
+#: includes/class-wp24-settings.php:1075
+msgid "Added to cart text"
+msgstr "Warenkorb hinzugefügt Text"
+
+#: includes/class-wp24-settings.php:1083
+msgid "Change link or button text to this text after adding domain to cart."
+msgstr ""
+"Link- oder Buttontext in diesen Text ändern, nachdem Domain zum Warenkorb "
+"hinzugefügt wurde."
+
+#: includes/class-wp24-settings.php:1089
+msgid "Domain label"
+msgstr "Domain Beschriftung"
+
+#: includes/class-wp24-settings.php:1097
+msgid ""
+"Labeling in front of the domain, under the product name in the shopping cart "
+"and the order."
+msgstr ""
+"Beschriftung vor der Domain, unter dem Produktnamen im Warenkorb und der "
+"Bestellung."
+
+#: includes/class-wp24-settings.php:1106 includes/class-wp24-settings.php:1881
+msgid "Purchase product"
+msgstr "Kaufprodukt"
+
+#: includes/class-wp24-settings.php:1138
+msgid "Transfer"
+msgstr "Transfer"
+
+#: includes/class-wp24-settings.php:1152 includes/class-wp24-settings.php:1883
+msgid "Transfer product"
+msgstr "Transferprodukt"
+
+#: includes/class-wp24-settings.php:1181
+msgid "Transfer suffix"
+msgstr "Transfer Suffix"
+
+#: includes/class-wp24-settings.php:1189
+msgid ""
+"Suffix after the domain, under the product name in the shopping cart and the "
+"order."
+msgstr ""
+"Suffix nach der Domain, unter dem Produktnamen im Warenkorb und der "
+"Bestellung."
+
+#: includes/class-wp24-settings.php:1200
+msgid "Type"
+msgstr "Typ"
+
+#: includes/class-wp24-settings.php:1211
+msgid "Version 2 (\"I'm not a robot\" Checkbox)"
+msgstr "Version 2 (\"Ich bin kein Roboter\" Checkbox)"
+
+#: includes/class-wp24-settings.php:1212
+msgid "Version 2 (Invisible badge)"
+msgstr "Version 2 (unsichtbares Badge)"
+
+#: includes/class-wp24-settings.php:1213
+msgid "Version 3"
+msgstr "Version 3"
+
+#: includes/class-wp24-settings.php:1220
+msgid "Site key"
+msgstr "Site Schlüssel"
+
+#: includes/class-wp24-settings.php:1233
+msgid "Secret key"
+msgstr "Geheimer Schlüssel"
+
+#: includes/class-wp24-settings.php:1246
+msgid "Theme"
+msgstr "Theme"
+
+#: includes/class-wp24-settings.php:1255
+msgid "Light"
+msgstr "Hell"
+
+#: includes/class-wp24-settings.php:1256
+msgid "Dark"
+msgstr "Dunkel"
+
+#: includes/class-wp24-settings.php:1263
+msgid "Size"
+msgstr "Größe"
+
+#: includes/class-wp24-settings.php:1272
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/class-wp24-settings.php:1273
+msgid "Compact"
+msgstr "Kompakt"
+
+#: includes/class-wp24-settings.php:1280
+msgid "Position"
+msgstr "Position"
+
+#: includes/class-wp24-settings.php:1289
+msgid "Bottom right"
+msgstr "Unten rechts"
+
+#: includes/class-wp24-settings.php:1290
+msgid "Bottom left"
+msgstr "Unten links"
+
+#: includes/class-wp24-settings.php:1297
+msgid "Score"
+msgstr "Punktzahl"
+
+#: includes/class-wp24-settings.php:1307
+msgid ""
+"Cancel request if score is lower than this value.<br>(1.0 is very likely a "
+"good interaction, 0.0 is very likely a bot.)"
+msgstr ""
+"Anfrage abbrechen, wenn Punktzahl unter diesem Wert liegt.<br> (1.0 ist sehr "
+"wahrscheinlich eine gute Interaktion, 0.0 ist sehr wahrscheinlich ein Bot.)"
+
+#: includes/class-wp24-settings.php:1327
+msgid "Text and color for message in case of failed check."
+msgstr "Text und Farbe der Meldung bei fehlgeschlagener Prüfung."
+
+#: includes/class-wp24-settings.php:1355
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie haben keine ausreichenden Berechtigungen um auf diese Seite zuzugreifen."
+
+#: includes/class-wp24-settings.php:1359
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/class-wp24-settings.php:1360
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: includes/class-wp24-settings.php:1361
+msgid "Texts &amp; Colors"
+msgstr "Text &amp; Farben"
+
+#: includes/class-wp24-settings.php:1362
+msgid "Prices &amp; Links"
+msgstr "Preise &amp; Links"
+
+#: includes/class-wp24-settings.php:1363
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wp24-settings.php:1364 includes/class-wp24-settings.php:1940
+msgid "Whois Servers"
+msgstr "Whois Server"
+
+#: includes/class-wp24-settings.php:1365
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/class-wp24-settings.php:1366
+msgid "System Info"
+msgstr "Systeminformationen"
+
+#: includes/class-wp24-settings.php:1367 includes/class-wp24-settings.php:2143
+msgid "Help"
+msgstr "Hilfe"
+
+#: includes/class-wp24-settings.php:1377
+#, php-format
+msgid "%1$s TLDs have a query limit: %2$s."
+msgstr "%1$s TLDs haben ein Abfragelimit: %2$s."
+
+#: includes/class-wp24-settings.php:1383
+#, php-format
+msgid "Only %1$s queries per hour overall are possible for those domains."
+msgstr "Insgesamt sind für diese Domains nur %1$s Abfragen pro Stunde möglich."
+
+#: includes/class-wp24-settings.php:1394
+#, php-format
+msgid ""
+"CentralNic %1$strusted sources%2$s are those that are present on the access "
+"list of a registrar!"
+msgstr ""
+"CentralNic %1$svertrauenswürdige Quellen%2$s sind diejenigen, die auf der "
+"Zugriffsliste eines Registrars vorhanden sind!"
+
+#: includes/class-wp24-settings.php:1405
+msgid "reCAPTCHA is enabled, but no site or secret key is set."
+msgstr ""
+"reCAPTCHA ist aktiviert, es ist jedoch kein Site oder geheimer Schlüssel "
+"festgelegt."
+
+#: includes/class-wp24-settings.php:1419
+#, php-format
+msgid ""
+"If you like WP24 Domain Check, leave a positive <a href=\"%1$s\">review</a>, "
+"support the development with a <a href=\"%2$s\">donation</a>. Check the <a "
+"href=\"%3$s\">forum</a> if you need help or have suggestions for "
+"improvements."
+msgstr ""
+"Wenn Ihnen WP24 Domain Check gefällt, hinterlassen Sie eine positive <a "
+"href=\"%1$s\">Bewertung</a>, unterstützen Sie die Entwicklung mit einer <a "
+"href=\"%2$s\">Spende</a>. Besuchen Sie das <a href=\"%3$s\">Forum</a>, wenn "
+"Sie Hilfe benötigen oder Verbesserungsvorschläge haben."
+
+#: includes/class-wp24-settings.php:1424
+msgid "Dismiss"
+msgstr "Ausblenden"
+
+#: includes/class-wp24-settings.php:1442
+msgid ""
+"Simply insert this shortcode <code>[wp24_domaincheck]</code> into any post "
+"or page to display the domain check."
+msgstr ""
+"Fügen Sie einfach diesen Shortcode <code>[wp24_domaincheck]</code> in einen "
+"Beitrag oder eine Seite ein, um den Domain Check anzuzeigen."
+
+#: includes/class-wp24-settings.php:1444
+msgid ""
+"Use <code>[wp24_domaincheck tlds=\"com, net, org\"]</code> to configure TLDs "
+"differing from the settings."
+msgstr ""
+"<code>[wp24_domaincheck tlds=\"com, net, org\"]</code>verwenden um TLDs "
+"abweichend von den Einstellungen zu konfigurieren."
+
+#: includes/class-wp24-settings.php:1446
+msgid ""
+"Use <code>[wp24_domaincheck mode=\"whois\"]</code> to directly show the "
+"whois data."
+msgstr ""
+"<code>[wp24_domaincheck mode=\"whois\"]</code> verwenden um die Whois-Daten "
+"direkt anzuzeigen."
+
+#: includes/class-wp24-settings.php:1466
+msgid "Text and colors for the different statuses returned by domain checks."
+msgstr ""
+"Text und Farben für die verschiedenen Status die von Domainenprüfungen "
+"zurückgegeben werden."
+
+#: includes/class-wp24-settings.php:1624
+msgid "no TLDs set"
+msgstr "keine TLDs festgelegt"
+
+#: includes/class-wp24-settings.php:1628
+msgid "not supported"
+msgstr "nicht unterstützt"
+
+#: includes/class-wp24-settings.php:1629
+msgid "Hint: Enable \"Unsupported TLDs\" in the advanced settings."
+msgstr ""
+"Hinweis: Aktivieren Sie \"Nicht unterstützte TLDs\" in den erweiterten "
+"Einstellungen."
+
+#: includes/class-wp24-settings.php:1632
+msgid "No whois server available for"
+msgstr "Kein Whois-Server verfügbar für"
+
+#: includes/class-wp24-settings.php:1714
+msgid "WooCommerce integration enabled, disable to use prices &amp; links."
+msgstr ""
+"WooCommerce Integration aktiviert, deaktivieren um Preise &amp; Links zu "
+"verwenden."
+
+#: includes/class-wp24-settings.php:1754 includes/class-wp24-settings.php:1876
+msgid "Individual TLD settings"
+msgstr "Individuelle TLD Einstellungen"
+
+#: includes/class-wp24-settings.php:1758 includes/class-wp24-settings.php:1880
+#: includes/class-wp24-settings.php:1952 includes/class-wp24-settings.php:2014
+msgid "TLD"
+msgstr "TLD"
+
+#: includes/class-wp24-settings.php:1760
+msgid "Price"
+msgstr "Preis"
+
+#: includes/class-wp24-settings.php:1762
+msgid "Link"
+msgstr "Link"
+
+#: includes/class-wp24-settings.php:1772
+msgid "Purchase price"
+msgstr "Kaufpreis"
+
+#: includes/class-wp24-settings.php:1774
+msgid "Transfer price"
+msgstr "Transferpreis"
+
+#: includes/class-wp24-settings.php:1775
+msgid "Leave empty to use default price."
+msgstr "Leer lassen, um den Standardpreis zu verwenden."
+
+#: includes/class-wp24-settings.php:1781
+msgid "Purchase link"
+msgstr "Kauflink"
+
+#: includes/class-wp24-settings.php:1783
+msgid "Transfer link"
+msgstr "Transferlink"
+
+#: includes/class-wp24-settings.php:1784
+msgid "Leave empty to use default link."
+msgstr "Leer lassen, um den Standardlink zu verwenden."
+
+#: includes/class-wp24-settings.php:1784
+msgid "Use <strong>[domain]</strong> as placeholder for the domain name."
+msgstr ""
+"Verwenden Sie <strong>[domain]</strong> als Platzhalter für den Domainnamen."
+
+#: includes/class-wp24-settings.php:1788 includes/class-wp24-settings.php:1905
+#: includes/class-wp24-settings.php:2026
+msgid "Save"
+msgstr "Speichern"
+
+#: includes/class-wp24-settings.php:1790 includes/class-wp24-settings.php:1907
+#: includes/class-wp24-settings.php:2028
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/class-wp24-settings.php:1812 includes/class-wp24-settings.php:1820
+msgid "P"
+msgstr "P"
+
+#: includes/class-wp24-settings.php:1814 includes/class-wp24-settings.php:1822
+msgid "T"
+msgstr "T"
+
+#: includes/class-wp24-settings.php:1825 includes/class-wp24-settings.php:1923
+#: includes/class-wp24-settings.php:2050
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/class-wp24-settings.php:1841
+msgid "WooCommerce plugin is not activated or installed."
+msgstr "Das WooCommerce Plugin ist nicht aktiviert oder installiert."
+
+#: includes/class-wp24-settings.php:1942
+msgid "Number of servers / TLDs"
+msgstr "Anzahl Server / TLDs"
+
+#: includes/class-wp24-settings.php:1947
+msgid "Find"
+msgstr "Suchen"
+
+#: includes/class-wp24-settings.php:1948
+msgid "Enter the desired TLD and check if there is an appropriate server."
+msgstr ""
+"Gewünschte TLD eingeben und prüfen, ob ein geeigneter Server vorhanden ist."
+
+#: includes/class-wp24-settings.php:1956
+msgid "Search"
+msgstr "Suchen"
+
+#: includes/class-wp24-settings.php:1963
+msgid "Results with"
+msgstr "Ergebnisse mit"
+
+#: includes/class-wp24-settings.php:1985
+msgid ""
+"If a TLD is missing or the query returns erroneous results, feel free to "
+"contact us."
+msgstr ""
+"Wenn eine TLD fehlt oder die Abfrage fehlerhafte Ergebnisse liefert, können "
+"Sie sich gerne an uns wenden."
+
+#: includes/class-wp24-settings.php:2006
+msgid "Custom Whois Servers"
+msgstr "Benutzerdefinierte Whois Server"
+
+#: includes/class-wp24-settings.php:2008
+#, php-format
+msgid ""
+"Instructions how to add a custom whois server can be found <a "
+"href=\"%1$s\">here</a>."
+msgstr ""
+"Anweisungen zum Hinzufügen eines benutzerdefinierten Whois Server finden Sie "
+"<a href=\"%1$s\">hier</a>."
+
+#: includes/class-wp24-settings.php:2015
+msgid "Whois server"
+msgstr "Whois Server"
+
+#: includes/class-wp24-settings.php:2016
+msgid "Status free"
+msgstr "Status frei"
+
+#: includes/class-wp24-settings.php:2059
+msgid ""
+"Default plugin settings for this TLD are overridden. Slightly slows down the "
+"check speed."
+msgstr ""
+"Standard Plugin Einstellungen für diese TLD werden überschrieben. "
+"Verlangsamt die Prüfgeschwindigkeit leicht."
+
+#: includes/class-wp24-settings.php:2078
+msgid "Database"
+msgstr "Datenbank"
+
+#: includes/class-wp24-settings.php:2080
+msgid "System"
+msgstr "System"
+
+#: includes/class-wp24-settings.php:2089
+msgid "Requirements for whois queries"
+msgstr "Voraussetzungen für Whois-Abfragen"
+
+#: includes/class-wp24-settings.php:2094 includes/class-wp24-settings.php:2107
+#: includes/class-wp24-settings.php:2109 includes/class-wp24-settings.php:2113
+#: includes/class-wp24-settings.php:2115 includes/class-wp24-settings.php:2124
+#: includes/class-wp24-settings.php:2126 includes/class-wp24-settings.php:2130
+#: includes/class-wp24-settings.php:2132
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: includes/class-wp24-settings.php:2094
+msgid "PHP function \"fsockopen\" must be enabled by your hosting provider."
+msgstr "PHP Funktion \"fsockopen\" muss von Ihrem Webhoster aktiviert werden."
+
+#: includes/class-wp24-settings.php:2096
+msgid "Open"
+msgstr "Offen"
+
+#: includes/class-wp24-settings.php:2098
+msgid "Locked"
+msgstr "Gesperrt"
+
+#: includes/class-wp24-settings.php:2098
+msgid "Port 43 must be unlocked by your hosting provider."
+msgstr "Port 43 muss von Ihrem Webhoster freigeschaltet sein."
+
+#: includes/class-wp24-settings.php:2102
+msgid "Requirements for RDAP queries"
+msgstr "Voraussetzungen für RDAP-Abfragen"
+
+#: includes/class-wp24-settings.php:2107 includes/class-wp24-settings.php:2124
+msgid "Using cURL as fallback."
+msgstr "Verwendung von cURL als Fallback."
+
+#: includes/class-wp24-settings.php:2113 includes/class-wp24-settings.php:2130
+msgid "allow_url_fopen is enabled."
+msgstr "allow_url_fopen ist aktiviert."
+
+#: includes/class-wp24-settings.php:2119
+msgid "Requirements for reCAPTCHA"
+msgstr "Voraussetzungen für reCAPTCHA"
+
+#: includes/class-wp24-settings.php:2146
+#, php-format
+msgid ""
+"The frequently asked questions (FAQ) can be found <a href=\"%1$s\">here</a>."
+msgstr ""
+"Die häufig gestellten Fragen (FAQ) finden Sie <a href=\"%1$s\">hier</a>."
+
+#: includes/class-wp24-settings.php:2151
+#, php-format
+msgid ""
+"For other questions or problems take a look at the <a href=\"%1$s\">support "
+"forum</a>."
+msgstr ""
+"Bei anderen Fragen oder Problemen besuchen Sie das <a href=\"%1$s\">Support-"
+"Forum</a>."
+
+#: includes/class-wp24-settings.php:2157
+msgid "Review"
+msgstr "Bewertung"
+
+#: includes/class-wp24-settings.php:2160
+#, php-format
+msgid ""
+"If you like WP24 Domain Check, <a href=\"%1$s\">click here</a> to leave a "
+"positive review."
+msgstr ""
+"Wenn Ihnen WP24 Domain Check gefällt, <a href=\"%1$s\">klicken Sie hier</a> "
+"um eine positive Bewertung abzugeben."
+
+#: includes/class-wp24-settings.php:2165
+#, php-format
+msgid ""
+"In case you do not like it or have suggestions for improvements <a "
+"href=\"%1$s\">click here</a> to send a feedback."
+msgstr ""
+"Falls es Ihnen nicht gefällt oder Sie Verbesserungsvorschläge haben <a "
+"href=\"%1$s\">klicken Sie hier</a> um Feedback zu senden."
+
+#: includes/class-wp24-settings.php:2171
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-wp24-settings.php:2173
+msgid ""
+"If you like this plugin, you could honor the work and support the further "
+"development with a donation."
+msgstr ""
+"Wenn Ihnen dieses Plugin gefällt, können Sie die Arbeit würdigen und die "
+"Weiterentwicklung mit einer Spende unterstützen."
+
+#: includes/class-wp24-settings.php:2176
+#, fuzzy, php-format
+#| msgid ""
+#| "For being listed as a <a href=\"%1$s\">supporter</a> leave your name and "
+#| "URL in the corresponding field when donating. "
+msgid ""
+"For being listed as a <a href=\"%1$s\">supporter</a> leave your name and URL "
+"in the corresponding field when donating."
+msgstr ""
+"Um als <a href=\"%1$s\">Unterstützer</a> aufgeführt zu werden, hinterlassen "
+"Sie beim Spenden Ihren Namen und Ihre URL im entsprechenden Feld."
+
+#: includes/class-wp24-settings.php:2180
+msgid "Donate"
+msgstr "Spenden"
+
+#: includes/class-wp24-widget.php:18
+msgid "Display domaincheck form."
+msgstr "Domaincheck Formular anzeigen."
+
+#: includes/class-wp24-widget.php:46
+msgid "Domain Check"
+msgstr "Domain Check"
+
+#: includes/class-wp24-widget.php:49
+msgid "Title:"
+msgstr "Titel:"
+
+#~ msgid "About"
+#~ msgstr "Über"
+
+#~ msgid "TLD already exists in the normal whois server list."
+#~ msgstr "TLD existiert bereits in der normalen Whois Serverliste."
+
+#~ msgid "Forum"
+#~ msgstr "Forum"
+
+#~ msgid "F.A.Q."
+#~ msgstr "F.A.Q."
+
+#, php-format
+#~ msgid "Check result may not be a 100% correct."
+#~ msgstr "Prüfergebnis ist möglicherweise nicht 100% korrekt."
+
+#, fuzzy
+#~| msgid "Whois Servers"
+#~ msgid "WHOIS Server"
+#~ msgstr "Whois Server"
+
+#~ msgid ""
+#~ "Disable to stay on the current page after click on add to cart link or "
+#~ "button."
+#~ msgstr ""
+#~ "Deaktivieren um auf aktueller Seite zu bleiben, nach Klick auf Hinzufügen "
+#~ "zum Warenkorb Link oder Button."
+
+#~ msgid "Enable purchase prices"
+#~ msgstr "Kaufpreise aktivieren"
+
+#~ msgid "Enable purchase links"
+#~ msgstr "Kauflinks aktivieren"
+
+#~ msgid "Enable transfer prices"
+#~ msgstr "Transferpreise aktivieren"
+
+#~ msgid "Enable transfer links"
+#~ msgstr "Transferlinks aktivieren"
+
+#~ msgid "Leave empty to use default purchase link."
+#~ msgstr "Leer lassen, um den Standard-Kauflink zu verwenden."
+
+#~ msgid "Whois Server Unknown"
+#~ msgstr "Whois Server unbekannt"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Premium"
+#~ msgstr "Premium"
+
+#~ msgid "Premium features"
+#~ msgstr "Premium Funktionen"
+
+#~ msgid "Free Text Input (Type TLD into domain name field)"
+#~ msgstr "Freitext Eingabe (TLD in Feld für Domainnamen eingeben)"
+
+#~ msgid "Check all TLDs simultaneously (asynchronous)"
+#~ msgstr "Gleichzeitiges Überprüfen aller TLDs (asynchron)"
+
+#~ msgid "Show detailed whois information if domain is registered"
+#~ msgstr ""
+#~ "Detaillierte Whois Informationen anzeigen, wenn die Domain registriert ist"
+
+#~ msgid "Bot protection with reCAPTCHA (Version 2 and 3)"
+#~ msgstr "Botschutz mit reCAPTCHA (Version 2 und 3)"
+
+#~ msgid "Upgrade to Premium"
+#~ msgstr "Auf Premium upgraden"
+
+#~ msgid "License"
+#~ msgstr "Lizenz"

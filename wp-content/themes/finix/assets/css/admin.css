@@ -1,0 +1,442 @@
+/*
+WP Theme: Finix - Technology & IT Solutions WordPress Theme
+Author: powersquall.com
+Version: 1.4  
+Design and Developed by: Power Squall
+*/
+
+/*================================
+[  Table Of Contents ] 
+==================================
+
+:: Theme Option CSS
+
+=================================
+[ End Table Contents ]
+================================*/
+
+
+/*========================================*/
+/* Theme Option CSS */
+/*========================================*/
+.redux-container {
+	background: #1d1f27;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 7%);
+}
+.redux-container .redux-main {
+	background: #ffffff;
+	margin-left: 251px;
+	padding: 10px 40px;
+    border-left: none;
+    box-shadow: 0 0 30px rgb(0 0 0 / 7%);
+}
+.redux-container .redux-main h2 {
+	font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.redux-container .redux-notice-field {
+	background: #f6f8ff;
+}
+.redux-main .form-table-section-indented {
+    width: 100%;
+    margin-left: 0 !important;
+}
+.redux-container .redux-group-tab h3 {
+    line-height: 3em;
+    margin-bottom: 0 !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#redux-header {
+    border-bottom:3px solid #571afa !important;
+    background: #643eff !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+    padding-right: 15px;
+}
+.redux-container-image_select ul.redux-image-select .redux-image-select-selected {
+    background: none;
+}
+.redux-container-image_select ul.redux-image-select li span {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*--------------------*/
+/* Top Sticky bar */
+/*--------------------*/
+.redux-container .redux-main #redux-sticky,
+.redux-container .redux-main #redux-footer-sticky {
+	margin-left: -40px;
+    margin-right: -40px;
+}
+.redux-container .redux-main #redux-sticky #info_bar,
+.redux-container .redux-main #redux-footer {
+	height: 40px;
+	background: #ffffff !important;
+	padding: 25px 40px 25px 10px;
+}
+.redux-container .redux-main .redux-action_bar input {
+	line-height: 19px;
+    margin-left: 10px;
+    border: 2px solid #e8e8e8;
+    background: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    color: #2e364c;
+    font-weight: 600;
+    margin-top: 0;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.redux-container .redux-main .redux-action_bar #redux-defaults-top,
+.redux-container .redux-main .redux-action_bar #redux-defaults-bottom {
+    background: #1d2327;
+    color: #fff;
+    border-color: #1d2327;
+    box-shadow: 0 5px 20px rgb(208 215 220);
+}
+.redux-container .redux-main .redux-action_bar #redux-defaults-top:hover,
+.redux-container .redux-main .redux-action_bar #redux-defaults-bottom:hover,
+.redux-container .redux-main .redux-action_bar input:hover {
+    color: #f5194c;
+    background: transparent;
+    border-color: #f5194c;
+}
+.redux-container .redux-main .redux-action_bar input.button-primary {
+    border-color: #24b04f;
+    color: #ffffff;
+    background: #24b04f;
+    box-shadow: 0 5px 20px rgb(185 226 198);
+}
+.redux-container .redux-main .redux-action_bar input.button-primary:hover {
+	background: transparent;
+	color: #24b04f;
+}
+
+/*--------------------*/
+/* Left Sidebar */
+/*--------------------*/
+.redux-container .redux-sidebar {
+	width: 252px;
+}
+.redux-container .redux-sidebar .redux-group-menu {
+	background: none;
+}
+.redux-container .redux-sidebar .redux-group-menu li a {
+	padding: 15px 15px 15px 25px;
+	background: #1d1f27;
+	width: auto;
+	color: #969696 !important;
+	font-weight: 600 !important;
+	opacity: 1 !important;
+    border-bottom: 1px solid #2b2d38 !important;
+    transition: all 0.3s ease-in-out 0s;
+}
+.redux-container .redux-sidebar .redux-group-menu li:hover a,
+.redux-container .redux-sidebar .redux-group-menu li a:hover,
+.redux-container .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a,
+.redux-container .redux-sidebar .redux-group-menu li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.active a:hover {
+	width: auto;
+	font-weight: 600 !important;
+    color: #ffffff !important;
+	background: #1d1f27 !important;
+    box-shadow: none;
+}
+.redux-container .redux-sidebar .redux-group-tab-link-a > i {
+	color: #969696;
+	font-size: 14px;
+    top: 16px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.redux-container .redux-sidebar .redux-group-menu li:hover a > i,
+.redux-container .redux-sidebar .redux-group-menu li a:hover a > i,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild .redux-group-tab-link-a > i,
+.redux-container .redux-sidebar .redux-group-menu li.active .redux-group-tab-link-a > i {
+    color: #643eff;
+}
+.redux-container .redux-sidebar .redux-group-tab-link-a span.group_title {
+	padding-left: 30px;
+}
+.redux-container .redux-sidebar .redux-group-tab-link-a .extraIconSubsections i {
+    font-size: 10px;
+}
+
+/* Sub Menu */
+.redux-container .redux-sidebar .redux-group-menu li .subsection {
+    background: #ffffff;
+    padding: 0;
+}
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li:hover a,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a:hover,
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a {
+	background: #161820 !important;
+    color: #969696 !important;
+	font-weight: 600 !important;
+    padding: 13px 20px;
+    padding-left: 55px;
+}
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li:hover a,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a:hover {
+	color: #ffffff !important;
+}
+
+/*--------------------*/
+/* UI Button */
+/*--------------------*/
+.admin-color-fresh .redux-container-switch .cb-enable.selected, 
+.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active, 
+.wp-customizer .redux-container-switch .cb-enable.selected, 
+.wp-customizer .redux-field-container .ui-buttonset .ui-state-active {
+	background: #643eff !important;
+    box-shadow: 0 5px 15px rgb(218 208 255) !important;
+    border-color: #6b4ee2 !important;
+}
+.redux-group-tab .redux-container-button_set .ui-button {
+    padding: 10px 40px;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 500;
+    height: auto;
+    border-radius: 4px !important;
+    margin-right: 7px !important;
+}
+
+.wp-core-ui .redux-container .button-primary {
+    background: #222733;
+    border-color: #222733;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 5px 30px;
+}
+
+.wp-core-ui .redux-container .button-secondary {
+    color: #8162fd;
+    border-color: #8162fd;
+    background: #ffffff;
+    vertical-align: top;
+    padding: 5px 25px;
+    box-shadow: 0 5px 15px rgb(239 237 247);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out 0s;
+}
+.wp-core-ui .redux-container .button-secondary:hover {
+    color: #ffffff;
+    background: #8162fd;
+}
+
+/*--------------------*/
+/* Color Picker */
+/*--------------------*/
+.wp-picker-container .wp-color-result.button {
+	min-height: 35px;
+	box-shadow: none;
+}
+.redux-main .wp-picker-container .wp-color-result-text {
+    font-size: 12px;
+    line-height: 33px;
+    padding: 0 15px;
+    background: #fff;
+}
+.wp-picker-container input[type=text].wp-color-picker {
+	min-height: 35px;
+	padding: 0 10px;
+	font-size: 13px;
+	text-align: center;
+}
+.redux-main .wp-picker-container .wp-picker-default {
+    padding: 0 13px 1px;
+    min-height: 35px;
+    box-shadow: none;
+}
+
+/*--------------------*/
+/* Input */
+/*--------------------*/
+.redux-container .redux-main input[type=date], 
+.redux-container .redux-main input[type=datetime-local], 
+.redux-container .redux-main input[type=datetime], 
+.redux-container .redux-main input[type=email], 
+.redux-container .redux-main input[type=month], 
+.redux-container .redux-main input[type=number], 
+.redux-container .redux-main input[type=password], 
+.redux-container .redux-main input[type=search], 
+.redux-container .redux-main input[type=tel], 
+.redux-container .redux-main input[type=text], 
+.redux-container .redux-main input[type=time], 
+.redux-container .redux-main input[type=url], 
+.redux-container .redux-main input[type=week],
+.redux-container .redux-main input.large-text,
+.redux-main .redux-typography-container .select_wrapper .redux-typography,
+.select2-container--default .select2-selection--single {
+    height: 45px !important;
+    padding: 5px 15px !important;
+    border: 1px solid #d6d6d6;
+}
+.redux-container .redux-main textarea,
+.redux-container .redux-main textarea.large-text {
+    padding: 15px !important;
+    border: 1px solid #d6d6d6;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 33px;
+    padding-left: 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 45px;
+    width: 35px;
+}
+.redux-container .redux-main .input-append .add-on, .redux-container .redux-main .input-prepend .add-on {
+    line-height: 37px;
+    border-color: #ccc;
+    padding: 3px 7px;
+    margin-right: -1px;
+}
+.redux-main .redux-typography-container .input_wrapper,
+.redux-main .redux-typography-container .select_wrapper {
+    height: auto;
+}
+.redux-container .redux-main .mini, 
+.redux-container .redux-main input[type=text].mini {
+    height: 35px;
+    border-color: #cccccc;
+}
+.wp-core-ui select {
+	min-height: 35px;
+	border-color: #cccccc;
+}
+
+.wrap .redux-container .notice, 
+.wrap .redux-container div.error, 
+.wrap .redux-container div.updated {
+    margin: 5px 0 15px;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.wrap .redux-container .notice {
+    color: #888261;
+    border: 1px solid #e8e3c6;
+    box-shadow: 0 3px 15px rgb(247 243 220);
+}
+.wrap .redux-container div.error {
+    color: #986565;
+    border: 1px solid #f5cece;
+    box-shadow: 0 3px 15px rgb(247 222 220);
+    background: #ffdada;
+}
+.wrap .redux-container div.updated {
+    color: #4f805e;
+    border: 1px solid #bdd6c4;
+    box-shadow: 0 3px 15px rgb(221 247 220);
+    background: #d1ead9;
+}
+
+/*--------------------*/
+/* Images Selected */
+/*--------------------*/
+.redux-container .redux-container-image_select .redux-image-select img, 
+.redux-container .redux-container-image_select .redux-image-select-selected img, 
+.redux-container .redux-container-image_select .redux-image-select .tiles, 
+.redux-container .redux-container-image_select .redux-image-select-selected .tiles {
+	border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+}
+.redux-container .redux-container-image_select .redux-image-select-selected img {
+    border-color: #643eff !important;
+}
+
+/*--------------------*/
+/* Loader Images */
+/*--------------------*/
+.form-table tr.loader_images ul.redux-image-select {
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+}
+.form-table tr.loader_images ul li.redux-image-select {
+    padding: 0;
+}
+
+/*========================================*/
+/* Page Option CSS */
+/*========================================*/
+#acf-page_setting .acf-fields.-sidebar:before {
+    background: #f6f9fe;
+    border-right: 1px solid #e5e9f1;
+}
+#acf-page_setting .acf-tab-wrap.-left .acf-tab-group li a {
+    padding: 17px 15px 17px 25px;
+    border-bottom: 1px solid #e5e9f1 !important;
+}
+
+#acf-page_setting .acf-fields.-sidebar {
+    padding: 0 0 0 25% !important;
+}
+#acf-page_setting .acf-fields.-sidebar:before {
+    width: 25%;
+}
+#acf-page_setting .acf-tab-wrap .acf-tab-group {
+    width: 25%;
+}
+
+#acf-page_setting .acf-tab-wrap .acf-tab-group li a {
+	padding: 13px 15px;
+	font-weight: 600;
+	color: #757575;
+}
+#acf-page_setting .acf-tab-wrap .acf-tab-group li.active a {
+	color: #10284e;
+}
+#acf-page_setting .acf-fields > .acf-field {
+	padding: 30px 30px;
+}
+
+/* Button Group */
+#acf-page_setting .acf-input .acf-button-group > label,
+#acf-page_setting .acf-input .acf-button-group > label:hover {
+    border: 1px solid #e8e8e8;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-size: 13px;
+    font-weight: 500;
+    height: auto;
+    color: #323232;
+    border-radius: 4px !important;
+    margin-right: 7px !important;
+    transition: all 0.3s ease-in-out;
+}
+#acf-page_setting .acf-input .acf-button-group > label.selected {
+	color: #ffffff;
+	border-color: #999999;
+    background: #643eff !important;
+    box-shadow: 0 5px 15px rgb(218 208 255) !important;
+    border-color: #6b4ee2 !important;
+}
+
+/* Wordpress Update CSS */
+.redux-container .ui-buttonset .ui-checkboxradio-icon {
+    display: none;
+}
+
+
+/*=====================================================*/
+/* Theme Option - RTL */
+/*=====================================================*/
+.rtl .redux-container .redux-main {
+    margin-right: 251px;
+    margin-left: 0;
+}
+.rtl .redux-container .redux-group-tab {
+    vertical-align: top;
+}
